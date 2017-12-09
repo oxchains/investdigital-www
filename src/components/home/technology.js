@@ -51,7 +51,7 @@ class Technology extends Component{
                         <div className="col-sm-6 col-lg-3 application-item">
                             <article className="u-block-hover">
                                 <figure className="g-overflow-hidden">
-                                    <img className="img-fluid u-block-hover__main--zoom-v1" src={`${ROOT_URL}public/img/technology1.gif`} alt=""/>
+                                    <img className="img-fluid u-block-hover__main--zoom-v1" src={`${ROOT_URL}public/img/technology1.png`} alt=""/>
                                 </figure>
                                 <div className=" g-pa-20">
                                     <h3 className="text-uppercase g-font-weight-700 g-font-size-14 text-center" >{getLocalValue("technology_section1_title")}</h3>
