@@ -4,6 +4,8 @@ const EN = {
     nav_language: "中文",
     nav_Whitepaper: "Whitepaper",
     change_to_lang: "/?lang=CN",
+    nav_whitepaper_url: "https://investdigital.info/public/InvestDigital_Whitepaper_CN.pdf",
+    nav_github_url: "javascript:;",
 
     about_title: "InvestDigital",
     about_title2: "One-stop investment platform for cryptocurrencies",
