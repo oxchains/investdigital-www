@@ -117,7 +117,7 @@
 }
 .banner-con{
     position: absolute;
-    top:25%;
+    top:20%;
     z-index: 999;
 }
 
@@ -330,4 +330,24 @@
 }
 .langs:hover{
 
+}
+.select-design{
+    cursor: pointer;
+    width: 165px;
+    margin: auto;
+   border-radius: 5px ;
+    border:1px solid white;
+
+}
+.select-design span{
+    display: block;
+    padding: 10px 20px;
+}
+.select-design .hover:hover{
+    color: black;
+    background-color: #eeeeee;
+}
+
+.select-design .hidden{
+    display: none;
 }

@@ -7,6 +7,7 @@ import Footer from './components/common/footer';
 import Home from './components/home/home';
 import '../public/js/vendor/hamburgers/hamburgers.min.css'
 import './css/main.css';
+
 //
 // const createStoreWithMiddleware = compose(
 //     applyMiddleware(reduxThunk),

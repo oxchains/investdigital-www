@@ -7,9 +7,15 @@ import {ROOT_URL} from '../../actions/types';
 class Banner extends Component{
     constructor(props) {
         super(props);
-        this.state = {current: ''};
+        this.state = {
+            show: false
+        };
     }
-
+    handleChange(){
+        this.setState({
+            show:!this.state.show
+        })
+    }
     componentDidMount() {
         const $ = window.$;
         // initialization of scroll animation
@@ -30,7 +36,14 @@ class Banner extends Component{
                                     <div className="g-font-size-14">InvestDigital是实现在EOS区块链上的数字资产管理协议和工具集，
                                         打造从内容/工具生产，到投资策略，再到金融产品的完整生态</div>
                                 </div>
-                                <a href="#" className="btn btn-md u-btn-outline-blue g-mr-10 g-mb-15 g-mt-20">白皮书</a>
+                                <div className="g-mt-20">
+                                    <div className="select-design" onClick={this.handleChange.bind(this)} >
+                                        <span>白皮书 <i className="fa fa-angle-down fa-2x pull-right" aria-hidden="true" style={{marginTop: '-4px'}}></i></span>
+                                        <span className={this.state.show ? "hover" : "hidden"}>WHITE PAPER</span>
+                                        <span className={this.state.show ? "hover" : "hidden"}>白書</span>
+                                        <span className={this.state.show ? "hover" : "hidden"}>백서</span>
+                                    </div>
+                                </div>
 
                             </div>
 

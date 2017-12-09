@@ -1,7 +1,5 @@
-/**
- * Created by zhanxiaojing on 2017/12/09.
- */
 import React,{ Component } from 'react';
+
 import Product from './product';
 import  Banner from './banner';
 import Technology from './technology';
