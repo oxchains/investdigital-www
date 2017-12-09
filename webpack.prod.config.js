@@ -9,7 +9,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 module.exports = Merge(common,{
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Themis：数字货币世界去中心化的"支付宝',
+            title: '数字货币一站式投资服务平台',
             template: path.join(__dirname, 'index.ejs'),
             publicPath: '',
             filename: 'index.html',
