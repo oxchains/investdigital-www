@@ -6,7 +6,7 @@ import Technology from './technology';
 import Ourteams from "./ourteams";
 import Circuit from './circuit'
 import Consultant from './consultant'
-
+import {getLocalValue} from '../common/language';
 
 class Home extends Component{
     componentDidMount() {

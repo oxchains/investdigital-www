@@ -4,6 +4,7 @@
 import React,{ Component }from 'react';
 import {connect} from 'react-redux';
 import {ROOT_URL} from '../../actions/types';
+import {getLocalValue} from '../common/language';
 
 class Product extends Component{
     rendeProduct(item,index){
@@ -27,17 +28,23 @@ class Product extends Component{
     }
     render(){
         const productItem = [
-            {title:"量化投资开发者工具", src:`${ROOT_URL}public/img/product1.png`, content:"InvestDigital提供策略编写、回测框架与实盘交易工具，帮助量化交易者不断完善自己的算法"},
+            /*{title:"量化投资开发者工具", src:`${ROOT_URL}public/img/product1.png`, content:"InvestDigital提供策略编写、回测框架与实盘交易工具，帮助量化交易者不断完善自己的算法"},
             {title:"数字货币投资交流社区", src:`${ROOT_URL}public/img/product2.png`, content:"基于用户间Follow功能的数字货币投资社区，帮助投资者发现有价值的交易策略，不断吸引数字货币投资者参与"},
             {title:"数字货币基金发行工具", src:`${ROOT_URL}public/img/product3.png`, content:"为资产管理人提供智能合约和工具，协助发行并运营数字货币基金，并提供业绩鉴证"},
             {title:"数字货币基金加速服务 ", src:`${ROOT_URL}public/img/product4.png`, content:"在平台上筛选表现好、能力强的基金，给予资金、技术和推广支持，并提供风控管理"},
             {title:"数字货币基金市场", src:`${ROOT_URL}public/img/product5.png`, content:"为投资者提供数字货币基金投资入口，为平台上优秀的基金提供产品展示和销售服务"},
-            {title:"数字货币金融投资产品", src:`${ROOT_URL}public/img/product6.png`, content:"开发数字货币投资组合如ETF、FOF等，填补数字货币市场基金产品空缺"},
-        ]
+            {title:"数字货币金融投资产品", src:`${ROOT_URL}public/img/product6.png`, content:"开发数字货币投资组合如ETF、FOF等，填补数字货币市场基金产品空缺"},*/
+        ];
+        for (let i = 1; i <=6; i++) {
+            productItem.push(
+                {title:getLocalValue("product_section" + i + "_title"),
+                    src:`${ROOT_URL}public/img/product${i}.png`,
+                    content:getLocalValue("product_section" + i + "_content")})
+        }
         return(
             <section className="container g-pt-100 g-pb-70">
                 <div className="container text-center g-max-width-75" style={{textAlign:'center'}}>
-                    <h2 className="g-font-weight-400 nl-home-title g-font-size-24">InvestDigital产品和服务</h2>
+                    <h2 className="g-font-weight-400 nl-home-title g-font-size-24">{getLocalValue("product_title")}</h2>
                     <div className="nl-underline g-mb-15">
                         <span className="nl-style"></span>
                     </div>

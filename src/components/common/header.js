@@ -2,6 +2,7 @@ import React,{ Component }from 'react';
 import {connect} from 'react-redux';
 import {Link} from "react-router-dom";
 import {ROOT_URL} from '../../actions/types';
+import {getLocalValue} from './language'
 
 class Header extends Component{
     constructor(props) {
@@ -46,12 +47,12 @@ class Header extends Component{
                                 <ul id="js-scroll-nav" className="navbar-nav text-uppercase g-font-weight-600 ml-auto">
                                     <li className='nav-item g-mx-25--lg'>
                                         <Link to="/" className='nav-link nl-nav-link g-px-0'>
-                                            首页
+                                            {getLocalValue("nav_home")}
                                         </Link>
                                     </li>
                                     <li className='nav-item g-mx-25--lg'>
                                         <a href="#ourteam" className='nav-link nl-nav-link g-px-0' >
-                                            团队
+                                            {getLocalValue("nav_team")}
                                         </a>
                                     </li>
                                     <li className="nav-item g-mx-25--lg">
@@ -60,13 +61,13 @@ class Header extends Component{
                                         </a>
                                     </li>
                                     <li className='nav-item g-mx-25--lg'>
-                                        <Link to="/" className='nav-link nl-nav-link g-px-0'>
-                                            EN
+                                        <Link to={getLocalValue("change_to_lang")} className='nav-link nl-nav-link g-px-0'>
+                                            {getLocalValue("nav_language")}
                                         </Link>
                                     </li>
                                     <li className="nav-item g-ml-25--lg g-mr-0--lg">
                                         <a href="javascript:;" target="_blank" className="nav-link nl-nav-link g-px-0 btn btn-md u-btn-primary nav-download"  style={{marginTop: '-3px'}}>
-                                            白皮书
+                                            {getLocalValue("nav_Whitepaper")}
                                         </a>
                                     </li>
                                 </ul>

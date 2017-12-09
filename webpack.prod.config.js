@@ -11,7 +11,7 @@ module.exports = Merge(common,{
         new HtmlWebpackPlugin({
             title: '数字货币一站式投资服务平台',
             template: path.join(__dirname, 'index.ejs'),
-            publicPath: 'https://static-cdn.oxchains.com/themis-www/',
+            publicPath: 'https://investdigital.info/',
             filename: 'index.html',
             inject: 'body',
             minify: {

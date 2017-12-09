@@ -232,7 +232,6 @@
 .circuit-img{
     width: 100%;
     height: 200px;
-    background: url("../../public/img/circuit.png") no-repeat;
     background-size: contain;
 }
 .imgborder

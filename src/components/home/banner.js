@@ -3,6 +3,7 @@
  */
 import React,{ Component }from 'react';
 import {ROOT_URL} from '../../actions/types';
+import {getLocalValue} from '../common/language';
 
 class Banner extends Component{
     constructor(props) {
@@ -28,17 +29,16 @@ class Banner extends Component{
                 <div className="g-overflow-hidden banner">
                         <section className="g-flex-centered g-bg-pos-center g-bg-img-hero g-py-150" style={{backgroundImage: "url(/public/img/banner.png)"}} data-calc-target="#js-header">
                             <div className="banner-con text-center g-color-white">
-                                <div className="h4 d-inline-block  g-brd-2 g-font-size-40  g-font-weight-600  g-pb-5">InvestDigital</div>
-                                <div className="g-font-size-20">数字货币一站式投资服务平台</div>
+                                <div className="h4 d-inline-block  g-brd-2 g-font-size-40  g-font-weight-600  g-pb-5">{getLocalValue("about_title")}</div>
+                                <div className="g-font-size-20">{getLocalValue("about_title2")}</div>
                                 <div className="g-pt-20 banner-des">
-                                    <div className="g-font-size-18 nl-main">InvestDigital是什么？</div>
+                                    <div className="g-font-size-18 nl-main">{getLocalValue("about_why")}</div>
                                     <span className="nl-style-sm"></span>
-                                    <div className="g-font-size-14">InvestDigital是实现在EOS区块链上的数字资产管理协议和工具集，
-                                        打造从内容/工具生产，到投资策略，再到金融产品的完整生态</div>
+                                    <div className="g-font-size-14">{getLocalValue("about_answer")}</div>
                                 </div>
                                 <div className="g-mt-20">
                                     <div className="select-design" onClick={this.handleChange.bind(this)} >
-                                        <span>白皮书 <i className="fa fa-angle-down fa-2x pull-right" aria-hidden="true" style={{marginTop: '-4px'}}></i></span>
+                                        <span>{getLocalValue("nav_Whitepaper")}<i className="fa fa-angle-down fa-2x pull-right" aria-hidden="true" style={{marginTop: '-4px'}}></i></span>
                                         <span className={this.state.show ? "hover" : "hidden"}>WHITE PAPER</span>
                                         <span className={this.state.show ? "hover" : "hidden"}>白書</span>
                                         <span className={this.state.show ? "hover" : "hidden"}>백서</span>
