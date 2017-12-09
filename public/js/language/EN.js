@@ -10,7 +10,7 @@ const EN = {
     about_title: "InvestDigital",
     about_title2: "One-stop investment platform for cryptocurrencies",
     about_why: "What is InvestDigital?",
-    about_answer: "•	InvestDigital is the asset management protocol and toolset for cryptocurrencies, and it is implemented on EOS block chain. Our vision is to build the completed ecosystem from content/tool production to investment strategy and then to financial products for cryptocurrency investment",
+    about_answer: "InvestDigital is the asset management protocol and toolset for cryptocurrencies, and it is implemented on EOS block chain. Our vision is to build the completed ecosystem from content/tool production to investment strategy and then to financial products for cryptocurrency investment",
 
     product_title: "InvestDigital Products",
     product_section1_title: "Products",

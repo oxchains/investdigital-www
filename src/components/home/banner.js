@@ -27,7 +27,7 @@ class Banner extends Component{
         return(
             <div>
                 <div className="g-overflow-hidden banner">
-                        <section className="g-flex-centered g-bg-pos-center g-bg-img-hero g-py-150" style={{backgroundImage: "url(/public/img/banner.png)"}} data-calc-target="#js-header">
+                        <section className="g-flex-centered g-bg-pos-center g-bg-img-hero g-py-150" style={{backgroundImage: "url(/public/img/banner.png)", position: 'relative'}} data-calc-target="#js-header">
                             <div className="banner-con text-center g-color-white">
                                 <div className="h4 d-inline-block  g-brd-2 g-font-size-40  g-font-weight-600  g-pb-5">{getLocalValue("about_title")}</div>
                                 <div className="g-font-size-20">{getLocalValue("about_title2")}</div>
