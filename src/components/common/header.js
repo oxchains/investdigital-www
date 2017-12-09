@@ -56,7 +56,7 @@ class Header extends Component{
                                         </a>
                                     </li>
                                     <li className="nav-item g-mx-25--lg">
-                                        <a href="https://github.com/themisnetwork" target="_blank" className="nav-link nl-nav-link g-px-0">
+                                        <a href={getLocalValue("nav_github_url")} target="_blank" className="nav-link nl-nav-link g-px-0">
                                             <i className="fa fa-github fa-lg github" aria-hidden="true"></i> GitHub
                                         </a>
                                     </li>
@@ -66,7 +66,7 @@ class Header extends Component{
                                         </Link>
                                     </li>
                                     <li className="nav-item g-ml-25--lg g-mr-0--lg">
-                                        <a href="javascript:;" target="_blank" className="nav-link nl-nav-link g-px-0 btn btn-md u-btn-primary nav-download"  style={{marginTop: '-3px'}}>
+                                        <a href={getLocalValue("nav_whitepaper_url")} target="_blank" className="nav-link nl-nav-link g-px-0 btn btn-md u-btn-primary nav-download"  style={{marginTop: '-3px'}}>
                                             {getLocalValue("nav_Whitepaper")}
                                         </a>
                                     </li>

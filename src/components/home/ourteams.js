@@ -41,37 +41,37 @@ class Ourteams extends Component {
             },
             {
                 src: `${ROOT_URL}public/img/Hugo Gong.png`,
-                ame: getLocalValue("team_section2_name"),
+                name: getLocalValue("team_section2_name"),
                 info: getLocalValue("team_section2_desc")
             },
             {
                 src: `${ROOT_URL}public/img/Riaz Ahmad.png`,
-                ame: getLocalValue("team_section3_name"),
+                name: getLocalValue("team_section3_name"),
                 info: getLocalValue("team_section3_desc")
             },
             {
                 src: `${ROOT_URL}public/img/zhaohui.jpg`,
-                ame: getLocalValue("team_section4_name"),
+                name: getLocalValue("team_section4_name"),
                 info: getLocalValue("team_section4_desc")
             },
             {
                 src: `${ROOT_URL}public/img/zhangli.png`,
-                ame: getLocalValue("team_section5_name"),
+                name: getLocalValue("team_section5_name"),
                 info: getLocalValue("team_section5_desc")
             },
             {
                 src: `${ROOT_URL}public/img/wangqianfeng.png`,
-                ame: getLocalValue("team_section6_name"),
+                name: getLocalValue("team_section6_name"),
                 info: getLocalValue("team_section6_desc")
             },
             {
                 src: `${ROOT_URL}public/img/tangcong.png`,
-                ame: getLocalValue("team_section7_name"),
+                name: getLocalValue("team_section7_name"),
                 info: getLocalValue("team_section7_desc")
             },
             {
                 src: `${ROOT_URL}public/img/menghongwei.png`,
-                ame: getLocalValue("team_section8_name"),
+                name: getLocalValue("team_section8_name"),
                 info: getLocalValue("team_section8_desc")
             },
             {
@@ -81,7 +81,7 @@ class Ourteams extends Component {
             },
             {
                 src: `${ROOT_URL}public/img/liuhan.png`,
-                ame: getLocalValue("team_section10_name"),
+                name: getLocalValue("team_section10_name"),
                 info: getLocalValue("team_section10_desc")
             },
         ]
