@@ -7,7 +7,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 module.exports = Merge(common,{
     plugins: [
         new HtmlWebpackPlugin({
-            title: '数字货币一站式投资服务平台',
+            title: "数字货币一站式投资服务平台",
             template: 'index.ejs',
             publicPath: './',
         }),

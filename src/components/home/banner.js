@@ -27,7 +27,7 @@ class Banner extends Component{
         return(
             <div>
                 <div className="g-overflow-hidden banner">
-                        <section className="g-flex-centered g-bg-pos-center g-bg-img-hero g-py-150" style={{backgroundImage: "url(/public/img/banner.png)", position: 'relative'}} data-calc-target="#js-header">
+                        <section className="g-flex-centered g-bg-pos-center g-bg-img-hero g-py-240" style={{backgroundImage: "url(/public/img/banner.png)", position: 'relative'}} data-calc-target="#js-header">
                             <div className="banner-con text-center g-color-white">
                                 <div className="h4 d-inline-block  g-brd-2 g-font-size-40  g-font-weight-600  g-pb-5">{getLocalValue("about_title")}</div>
                                 <div className="g-font-size-20">{getLocalValue("about_title2")}</div>
@@ -39,9 +39,10 @@ class Banner extends Component{
                                 <div className="g-mt-20">
                                     <div className="select-design" onClick={this.handleChange.bind(this)} >
                                         <span>{getLocalValue("nav_Whitepaper")}<i className="fa fa-angle-down fa-2x pull-right" aria-hidden="true" style={{marginTop: '-4px'}}></i></span>
-                                        <span className={this.state.show ? "hover" : "hidden"}>WHITE PAPER</span>
-                                        <span className={this.state.show ? "hover" : "hidden"}>白書</span>
-                                        <span className={this.state.show ? "hover" : "hidden"}>백서</span>
+                                        <span className={this.state.show ? "hover" : "hidden"}><a href="/public/InvestDigital_Whitepaper_CN.pdf">白皮书</a></span>
+                                        <span className={this.state.show ? "hover" : "hidden"}><a href="">WHITE PAPER</a></span>
+                                        <span className={this.state.show ? "hover" : "hidden"}><a href="">白書</a></span>
+                                        <span className={this.state.show ? "hover" : "hidden"}><a href="">백서</a></span>
                                     </div>
                                 </div>
 

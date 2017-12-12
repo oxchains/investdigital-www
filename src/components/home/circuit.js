@@ -29,11 +29,11 @@ class Circuit extends Component{
 
     render(){
         const Links = [
-            {time: '2016.06',info:"The DAO 遭攻击"},
-            {time: '2016.08',info:"形式化验证工具开发"},
-            {time: '2017.02',info:"InvestDigital构思"},
-            {time: '2017.06',info:"技术验证"},
-            {time: '2017.12',info:"基金市场Demo"},
+            {time: '2016.06',info:getLocalValue("circuit_section1_info")},
+            {time: '2016.08',info:getLocalValue("circuit_section2_info")},
+            {time: '2017.02',info:getLocalValue("circuit_section3_info")},
+            {time: '2017.06',info:getLocalValue("circuit_section4_info")},
+            {time: '2017.12',info:getLocalValue("circuit_section5_info")},
         ]
         return(
             <section id="circuit" className="g-py-50">

@@ -2,7 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 let prod = process.env.NODE_ENV === 'production';
 
-const static = [
+const static1 = [
     "./public/js/vendor/jquery.easing/js/jquery.easing.js",
     "./public/js/js/hs.core.js",
     "./public/js/js/components/hs.header.js",
@@ -11,14 +11,14 @@ const static = [
 ]
 module.exports = {
     entry: {
-        'vendor': static,
+        'vendor': static1,
         "bundle": "./src/index.js",
         "main": "./public/js/main.js",
     },
     output: {
         path: path.resolve(__dirname, "./dist"),
         filename: "[name].[chunkhash:8].js",
-        publicPath: prod ? "" : ""
+        publicPath: prod ? "https://investdigital.info/" : ""
     },
     module: {
         loaders: [{

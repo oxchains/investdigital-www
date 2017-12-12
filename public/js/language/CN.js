@@ -6,7 +6,7 @@ const CN = {
     change_to_lang: "/?lang=EN",
     nav_whitepaper_url: "https://investdigital.info/public/InvestDigital_Whitepaper_CN.pdf",
     nav_github_url: "javascript:;",
-
+    www_title: "数字货币一站式投资服务平台",
     about_title: "InvestDigital",
     about_title2: "数字货币一站式投资服务平台",
     about_why: "InvestDigital是什么？",
@@ -42,6 +42,11 @@ const CN = {
 
     circuit_title: "线路图",
     circuit_img: "/public/img/circuit_cn.jpg",
+    circuit_section1_info: "The DAO 遭攻击",
+    circuit_section2_info: "形式化验证工具开发",
+    circuit_section3_info: "InvestDigital构思",
+    circuit_section4_info: "技术验证",
+    circuit_section5_info: "基金市场Demo",
 
     team_title: "核心团队",
     team_section1_name: "Daniele Bernardi",
@@ -64,6 +69,8 @@ const CN = {
     team_section9_desc: "负责InvestDigital区块链系统开发。高级软件工程师，北京大学工学硕士。开发了基于改进BFT共识机制的高速私有区块链（北航链），是国内最早的区块链参与者和开发人员。",
     team_section10_name: "刘浛",
     team_section10_desc: "负责InvestDigital智能合约形式化验证。清华大学博士，加州大学戴维斯分校访问学者。主要研究领域为软件缺陷检测及漏洞分析、软件测试等。主持和负责DATE：Java程序动态分析及测试平台项目，开发了多个软件安全验证和自动化测试平台，包括Closure*工具，Tsmart-SiRi异步嵌入式系统的建模、验证工具，Tsmart-Edola同步系统集成开发平台。",
+    team_section11_name: "张培宇",
+    team_section11_desc: "香港中文大学理学硕士，中金量化研究员，从事机器学习，资产配置等权益投资研究。有丰富的数字货币量化投资经验。",
 
     ourteam_title: "顾问团队",
     ourteam_section1_name: "OracleChain",

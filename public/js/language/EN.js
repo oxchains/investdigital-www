@@ -7,6 +7,8 @@ const EN = {
     nav_whitepaper_url: "https://investdigital.info/public/InvestDigital_Whitepaper_CN.pdf",
     nav_github_url: "javascript:;",
 
+    www_title: "One-stop investment platform for cryptocurrencies.",
+
     about_title: "InvestDigital",
     about_title2: "One-stop investment platform for cryptocurrencies",
     about_why: "What is InvestDigital?",
@@ -16,7 +18,7 @@ const EN = {
     product_section1_title: "Quantitative Tools",
     product_section1_content: "InvestDigital will provide a set of developer tools for strategies developing, back-testing and firm trading, and help quants improve their algorithms constantly",
     product_section2_title: "Cryptocurrency Investment Community",
-    product_section2_content: "InvestDigital will provide a cryptocurrency investment community like an enhanced Twitter to help investors find valuable strategies, and to attract more investors to get involved",
+    product_section2_content: "InvestDigital will provide a cryptocurrency investment community based on 'Follow' function to help investors find valuable strategies, and to attract more investors to get involved",
     product_section3_title: "Cryptocurrency Funds Issuance Tool",
     product_section3_content: "InvestDigital will provide a set of smart contracts and tools to help fund managers issue and operate cryptocurrency funds, and provide performance evidence",
     product_section4_title: "Cryptocurrency Funds Accelerator Service",
@@ -32,7 +34,7 @@ const EN = {
     technology_section1_content: "InvestDigital is the first cryptocurrency smart investment protocol based on EOS blockchain. With the advantages of high-throughput and efficient oracle services of EOS, InvestDigital can obtain high processing capability of smart contracts and low latency data services. InvestDigital will have the abilities of supporting millions of users, rapid repairability and upgradability, and good expansibility",
     technology_section2_title: "oracle service---Trust",
     technology_section2_desc: "First Trusted Asset Management Service based on EOS Oracle Service",
-    technology_section2_content: "The main aim of InvestDigital is to build a trusted asset management platform, and InvestDigital will be the first commercial scenario of EOS Oracle. Invest Digital will utilize EOS Oracle mechanism to achieve the combination of external business process data with internal smart contracts, and to ensure the realness and Immutability of data, and to archive the traceability of transactions",
+    technology_section2_content: "The main aim of InvestDigital is to build a trusted asset management platform, and InvestDigital will be the first commercial scenario of EOS Oracle. InvestDigital will utilize EOS Oracle mechanism to achieve the combination of external business process data with internal smart contracts, and to ensure the realness and Immutability of data, and to archive the traceability of transactions",
     technology_section3_title: "formal verification----security",
     technology_section3_desc: "First Investment Platform using Formal Verification Technology",
     technology_section3_content: "InvestDigital will utilize formal verification technology to detect and avert security vulnerabilities of smart contracts. With the methods of model checking and theorem proving, InvestDigital could ensure the correctness and security of smart-contract codes, and can be able to reduce the risk of hacking attacks to the minimum which can keep the security of capitals",
@@ -42,6 +44,13 @@ const EN = {
 
     circuit_title: "RoadMap",
     circuit_img: "/public/img/circuit_en.jpg",
+    circuit_section1_info: "'The DAO' was attacked",
+    circuit_section2_info: "Developed formal verification tools",
+    circuit_section3_info: "Conception of InvestDigital",
+    circuit_section4_info: "Technical verification of InvestDigital",
+    circuit_section5_info: "Demo of Marketplace",
+
+
 
     team_title: "Core Team",
     team_section1_name: "Daniele Bernardi",
@@ -64,6 +73,8 @@ const EN = {
     team_section9_desc: "In charge of blockchain system development in InvestDigital. Senior Software Engineer, Master of Engineering from Peking University. He developed a high-speed private blockchain based on the improved BFT consensus mechanism (Beihang Chain) as one of the earliest blockchain participants and developers in China.",
     team_section10_name: "Liu Han",
     team_section10_desc: "In charge of smart contracts’ formal verification for InvestDigital. Tsinghua University Ph.D., visiting scholar at University of California, Davis. His main research area covers software defect detection, vulnerability analysis and software testing. He has been chaired and in charge of Project DATE: Java on program dynamic analysis and test platform, and has developed a number of software security verification and automated test platforms, including Closure* tools, the modeling and verification tools of Tsmart-SiRi asynchronous embedded system, the integrated development platform of Tsmart-Edola synchronization system.",
+    team_section11_name: "Zhang Peiyu",
+    team_section11_desc: "Master of Science from Chinese University of Hong Kong，Quantitative Researcher from China International Capital Corporation, he is currently working on machine learning, equity investment researching （such as asset portfolios ). He has rich experience in cryptocurriencies quantitative investment.",
 
     ourteam_title: "Advisors",
     ourteam_section1_name: "OracleChain",
@@ -71,7 +82,7 @@ const EN = {
     ourteam_section2_name: "Ennan Zhai",
     ourteam_section2_desc: "Yale University Ph.D., postdoctoral, Yale University associate professor. His research areas include reputation systems and large-scale distributed systems. The research focuses on building secure and reliable computer systems using technologies in distributed systems, programming languages and cryptography. Current work includes using highly efficient, accurate and in-depth audit techniques to increase the reliability and security of large-scale distributed systems, and PriFi: the first low-latency and anti-tracking anonymous communication system. His Ph.D. thesis focuses on building a cloud computing reliability auditing system that proactively detects the underlying causes and anomalous dependencies that can cause cloud-scale related failures.",
     ourteam_section3_name: "Guan Zhi",
-    ourteam_section3_desc: "Associate professor at Peking University and visiting scholar at Mannheim University in Germany. His main research interests include cryptography and security protocols. He is one of the major developers and community leaders in GsmSSL, a well-known open source project for the secret algorithm. He has developed Hyperledger Fabric, the National Security Algorithm Suite and tutored several Masters majored in blockchain. He has rich research and engineering experience in the field of performance optimization and security enhancement of elliptic curve cryptography.",
+    ourteam_section3_desc: "Associate professor at Peking University and visiting scholar at Mannheim University in Germany. His main research interests include cryptography and security protocols. He is one of the major developers and community leaders in GmSSL, a well-known open source project for the secret algorithm. He has developed Hyperledger Fabric, the National Security Algorithm Suite and tutored several Masters majored in blockchain. He has rich research and engineering experience in the field of performance optimization and security enhancement of elliptic curve cryptography.",
     ourteam_section4_name: "Chen Yu",
     ourteam_section4_desc: "Associate researcher in State Key Laboratory of Information Security in Institute of Information Engineering of CAS, master tutor, presided over two of the National Natural Science Foundation. He was selected as a member of the Youth Innovation Promotion Association of the Chinese Academy of Sciences and a member of the Youth Work Committee of the Chinese Cryptography Society. His main research interests include public-key cryptography, provable security theory, and basic cryptographic components. In recent years, he has published many academic papers on high-level periodicals such as Design, Codes and Cryptography, and international conferences such as CRYPTO, PKC, SCN, etc.",
 };

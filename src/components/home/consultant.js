@@ -8,12 +8,13 @@ import {getLocalValue} from '../common/language';
 class Consultant extends Component{
     renderrow(item,index){
         return (
-            <div className="col-6 col-lg-3 g-px-25 g-mb-50" key={index}>
+            <div className="col-lg-4 g-px-40 g-mb-50 g-mb-0--lg" key={index}>
                 <div className="text-center">
-                    <img className="u-shadow-v29 g-width-110  rounded-circle mb-5" style={{height: '110px'}}
-                         src={item.src} alt="Image Description"/>
-                    <h4 className="h5 g-font-weight-600 mb-1">{item.name}</h4>
-                    <span className="d-block text-left ">{item.info}</span>
+                            <span className="d-inline-block  u-icon-size--xl rounded-circle g-mb-30">
+                              <img className="imgborder g-width-110" style={{height:"115px"}} src={item.src} alt=""/>
+                            </span>
+                    <h3 className="h5 g-color-gray-dark-v2 g-font-weight-600 g-font-size-16 text-uppercase mb-3">{item.name}</h3>
+                    <p className="mb-0 text-left g-font-size-12">{item.info}</p>
                 </div>
             </div>
         )
@@ -22,7 +23,6 @@ class Consultant extends Component{
         const consultantlist = [
             {src:`${ROOT_URL}public/img/OracleChain.png`,name:getLocalValue("ourteam_section1_name"),info:getLocalValue("ourteam_section1_desc")},
             {src:`${ROOT_URL}public/img/Ennan Zhai.png`,name:getLocalValue("ourteam_section2_name"),info:getLocalValue("ourteam_section2_desc")},
-            {src:`${ROOT_URL}public/img/guanzhi.png`,name:getLocalValue("ourteam_section3_name"),info:getLocalValue("ourteam_section3_desc")},
             {src:`${ROOT_URL}public/img/chenyu.png`,name:getLocalValue("ourteam_section4_name"),info:getLocalValue("ourteam_section4_desc")}
         ]
         return(
