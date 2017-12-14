@@ -5,8 +5,10 @@ const CN = {
     nav_Whitepaper: "白皮书",
     change_to_lang: "/?lang=EN",
     nav_whitepaper_url: "https://investdigital.info/public/InvestDigital_Whitepaper_CN.pdf",
-    nav_github_url: "javascript:;",
+    nav_github_url: "https://github.com/investdigital",
+
     www_title: "数字货币一站式投资服务平台",
+
     about_title: "InvestDigital",
     about_title2: "数字货币一站式投资服务平台",
     about_why: "InvestDigital是什么？",
