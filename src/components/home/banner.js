@@ -41,7 +41,7 @@ class Banner extends Component{
                                         <span>{getLocalValue("nav_Whitepaper")}<i className="fa fa-angle-down fa-2x pull-right" aria-hidden="true" style={{marginTop: '-4px'}}></i></span>
                                         <span className={this.state.show ? "hover" : "hidden"}><a href="/public/InvestDigital_Whitepaper_CN.pdf">白皮书</a></span>
                                         <span className={this.state.show ? "hover" : "hidden"}><a href="/public/InvestDigital_Whitepaper_EN.pdf">WHITE PAPER</a></span>
-                                        <span className={this.state.show ? "hover" : "hidden"}><a href="">白書</a></span>
+                                        <span className={this.state.show ? "hover" : "hidden"}><a href="/public/InvestDigital_Whitepaper_JP.pdf">白書</a></span>
                                         <span className={this.state.show ? "hover" : "hidden"}><a href="">백서</a></span>
                                     </div>
                                 </div>
