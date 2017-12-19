@@ -42,6 +42,9 @@ const EN = {
     technology_section4_desc: "First Anonymous Reputation Rating Mechanism ",
     technology_section4_content: "InvestDigital utilizes reputation mechanism to achieve the motivations with rewards and punishments to keep the community in good condition. One advantage of the reputation system is that it is based on verifiable shuffles and linkable ring signatures technologies, it can achieve anonymous reputation calculation without revealing users’ real identities. This mechanism can increase the participation and loyalty of users",
 
+    news_title:'InvestDigital的新闻',
+
+
     circuit_title: "RoadMap",
     circuit_img: "/public/img/circuit_en.jpg",
     circuit_section1_info: "'The DAO' was attacked",
@@ -62,9 +65,9 @@ const EN = {
     team_section4_name: "Chao Hui",
     team_section4_desc: "In charge of InvestDigital system architecture. Senior experts in Internet technology and product technology management. Chao left Peking University during his doctor of science study to start an entrepreneurship. He had served as a senior director in Snowball and a senior structurer in Alipay, Alibaba, with 15 years of experience in development and management of large-scale financial and Internet system.",
     team_section5_name: "Zhang Li",
-    team_section5_desc: "In charge of marketing and community building for InvestDigital. Previous equity investment manager in Asset Management Branch, One of top brokerage firms in China, Peking University Ph.D., quantitative trading expert, senior securities investment expert. He has 8 years of experience in securities, 13 years of research in financial informatization, rich experience in asset management and client resources.",
+    team_section5_desc: "In charge of marketing and community building for InvestDigital. Previous equity investment manager in Asset Management Branch, Founder Securities, Peking University Ph.D., quantitative trading expert, senior securities investment expert. He has 8 years of experience in securities, 13 years of research in financial informatization, rich experience in asset management and client resources.",
     team_section6_name: "Wang Qianfeng",
-    team_section6_desc: "In charge of project investment strategy and product risk control in InvestDigital. Previous senior product manager of one of top asset management firms in China, Master of Financial Engineering of The Chinese University of Hong Kong, expert of robot advisor, and the author of \"Quantitative Asset Allocation\", a monograph on robot advisor. He has participated in the development t and issuance of Shanghai-Hong Kong-Shenzhen investment products, MSCI index products and quantitative strategy products.",
+    team_section6_desc: "In charge of project investment strategy and product risk control in InvestDigital. Previous senior product manager of Taikang Asset Management, Master of Financial Engineering of The Chinese University of Hong Kong, expert of robot advisor, and the author of \"Quantitative Asset Allocation\", a monograph on robot advisor. He has participated in the development t and issuance of Shanghai-Hong Kong-Shenzhen investment products, MSCI index products and quantitative strategy products.",
     team_section7_name: "Tang Cong",
     team_section7_desc: "In charge of blockchain and cryptography technology architecture of InvestDigital. Doctor of Science from Peking University, visiting scholar at New York University, previous product director of VRV (300352), expert in blockchain, distributed ledger, network and information security. Tang has rich experience in blockchain structure designing and system developing, and led lots of blockchain products and applications crossing industries like finance, insurance, product tracking and healthcare.",
     team_section8_name: "Meng Hongwei",
@@ -74,7 +77,7 @@ const EN = {
     team_section10_name: "Liu Han",
     team_section10_desc: "In charge of smart contracts’ formal verification for InvestDigital. Tsinghua University Ph.D., visiting scholar at University of California, Davis. His main research area covers software defect detection, vulnerability analysis and software testing. He has been chaired and in charge of Project DATE: Java on program dynamic analysis and test platform, and has developed a number of software security verification and automated test platforms, including Closure* tools, the modeling and verification tools of Tsmart-SiRi asynchronous embedded system, the integrated development platform of Tsmart-Edola synchronization system.",
     team_section11_name: "Zhang Peiyu",
-    team_section11_desc: "Master of Science from Chinese University of Hong Kong，Quantitative Researcher from one of top brokerage firms in China, he is currently working on machine learning, equity investment researching （such as asset portfolios ). He has rich experience in cryptocurriencies quantitative investment.",
+    team_section11_desc: "Master of Science from Chinese University of Hong Kong，Quantitative Researcher from China International Capital Corporation, he is currently working on machine learning, equity investment researching （such as asset portfolios ). He has rich experience in cryptocurriencies quantitative investment.",
 
     ourteam_title: "Advisors",
     ourteam_section1_name: "OracleChain",
@@ -85,14 +88,5 @@ const EN = {
     ourteam_section3_desc: "Associate professor at Peking University and visiting scholar at Mannheim University in Germany. His main research interests include cryptography and security protocols. He is one of the major developers and community leaders in GmSSL, a well-known open source project for the secret algorithm. He has developed Hyperledger Fabric, the National Security Algorithm Suite and tutored several Masters majored in blockchain. He has rich research and engineering experience in the field of performance optimization and security enhancement of elliptic curve cryptography.",
     ourteam_section4_name: "Chen Yu",
     ourteam_section4_desc: "Associate researcher in State Key Laboratory of Information Security in Institute of Information Engineering of CAS, master tutor, presided over two of the National Natural Science Foundation. He was selected as a member of the Youth Innovation Promotion Association of the Chinese Academy of Sciences and a member of the Youth Work Committee of the Chinese Cryptography Society. His main research interests include public-key cryptography, provable security theory, and basic cryptographic components. In recent years, he has published many academic papers on high-level periodicals such as Design, Codes and Cryptography, and international conferences such as CRYPTO, PKC, SCN, etc.",
-
-    cornerstone_title: "InvestDigital Cornerstone investors",
-    cornerstone_section1_name: "Bruce Zeng",
-    cornerstone_section1_desc: "CEO and Cofounder Of Bitlight Capital",
-    cornerstone_section1_info: "Former Blockchain Department Manager of Gingkoo——the first blockchain concept listed company, a veteran and pioneer of Blockchain Industry 。The staff of the section chain standard of the Ministry of industry and information.",
-
-    cornerstone_section2_name: "Andy Ji",
-    cornerstone_section2_desc: "Senior Blockchain Expert",
-    cornerstone_section2_info: "Andy was in charge of Blockchain/DLT of a fortune global 500 Group Company.He serves as deputy secretary general of the MIIT CBD-Forum and the director of the Hyperledger Project. He participated in the preparation of the MIIT Blockchain Whitepaper and related standards.And He had joined the work group of expert on the standardization of ISO/IEC TC307 blockchain/DLT.",
 };
 window.EN = EN;

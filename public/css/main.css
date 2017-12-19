@@ -359,7 +359,64 @@
 .select-design .hidden{
     display: none;
 }
-#cornerstone {
-    background: url("../../public/img/cornerstone_bg.jpg") no-repeat center;
-    background-size: cover;
+/*top*/
+.navP{
+    height: auto;
+    margin-bottom: 1px;
+}
+.pict{
+    height: 600px;
+    background: url("/public/img/new.gif") no-repeat  ;
+    left: 100px;
+    z-index: 1;
+}
+.vjs-default-skin.vjs-big-play-centered .vjs-big-play-button {
+    left: 50%;
+    margin-left: -2.1em;
+    top: 50%;
+    margin-top: -1.4000000000000001em;
+    z-index: 9;
+}
+.pict video{
+    z-index: 2;
+    position: relative;
+    left: 92px;
+    top: 82px;
+    transform:rotate(30deg);
+    -ms-transform:rotate(30deg);
+    -moz-transform:rotate(30deg);
+    -webkit-transform:rotate(30deg);
+    -o-transform:rotate(30deg);
+}
+.pict img{
+}
+.det{
+    padding-right: 250px;
+    text-align: right;
+}
+.det h3{
+    padding-top: 80px;
+}
+.det ul li hr{
+    width: 50px;
+    height: 6px;
+    color: blue;
+    /*margin-left: 267px;*/
+    background-color: blue;
+}
+.det ul{
+    list-style: none;
+}
+.det ul li{
+    /*line-height: 50px;*/
+}
+.shad{
+    box-shadow: 0 0 40px 5px rgba(0, 0, 0, 0.09);
+}
+.na{
+    padding: 0;
+    z-index: 99;
+    position: relative;
+    bottom:225px;
+    left: 0;
 }

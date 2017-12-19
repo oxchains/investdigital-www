@@ -4,9 +4,11 @@ let prod = process.env.NODE_ENV === 'production';
 
 const static1 = [
     "./public/js/vendor/jquery.easing/js/jquery.easing.js",
+    "./public/js/vendor/fancybox/jquery.fancybox.min.js",
     "./public/js/js/hs.core.js",
     "./public/js/js/components/hs.header.js",
     "./public/js/js/helpers/hs.hamburgers.js",
+    "./public/js/js/components/hs.popup.js",
     "./public/js/js/components/hs.scroll-nav.js",
 ]
 module.exports = {

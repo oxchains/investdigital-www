@@ -6,7 +6,10 @@ import Technology from './technology';
 import Ourteams from "./ourteams";
 import Circuit from './circuit'
 import Consultant from './consultant'
-import Cornerstone from './cornerstone'
+import VideoTop from './videoTop'
+import New from './new'
+import VideoBottom from './videoBottom'
+import Video from './video';
 import {getLocalValue} from '../common/language';
 
 class Home extends Component{
@@ -19,7 +22,10 @@ class Home extends Component{
                 <Banner/>
                 <Product/>
                 <Technology/>
-                <Cornerstone />
+                <Video/>
+                {/*<VideoTop/>*/}
+                <VideoBottom/>
+                <New/>
                 <Circuit/>
                 <Ourteams/>
                 <Consultant/>
