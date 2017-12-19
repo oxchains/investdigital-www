@@ -85,5 +85,14 @@ const EN = {
     ourteam_section3_desc: "Associate professor at Peking University and visiting scholar at Mannheim University in Germany. His main research interests include cryptography and security protocols. He is one of the major developers and community leaders in GmSSL, a well-known open source project for the secret algorithm. He has developed Hyperledger Fabric, the National Security Algorithm Suite and tutored several Masters majored in blockchain. He has rich research and engineering experience in the field of performance optimization and security enhancement of elliptic curve cryptography.",
     ourteam_section4_name: "Chen Yu",
     ourteam_section4_desc: "Associate researcher in State Key Laboratory of Information Security in Institute of Information Engineering of CAS, master tutor, presided over two of the National Natural Science Foundation. He was selected as a member of the Youth Innovation Promotion Association of the Chinese Academy of Sciences and a member of the Youth Work Committee of the Chinese Cryptography Society. His main research interests include public-key cryptography, provable security theory, and basic cryptographic components. In recent years, he has published many academic papers on high-level periodicals such as Design, Codes and Cryptography, and international conferences such as CRYPTO, PKC, SCN, etc.",
+
+    cornerstone_title: "InvestDigital Cornerstone investors",
+    cornerstone_section1_name: "Bruce Zeng",
+    cornerstone_section1_desc: "CEO and Cofounder Of Bitlight Capital",
+    cornerstone_section1_info: "Former Blockchain Department Manager of Gingkoo——the first blockchain concept listed company, a veteran and pioneer of Blockchain Industry 。The staff of the section chain standard of the Ministry of industry and information.",
+
+    cornerstone_section2_name: "Andy Ji",
+    cornerstone_section2_desc: "Senior Blockchain Expert",
+    cornerstone_section2_info: "Andy was in charge of Blockchain/DLT of a fortune global 500 Group Company.He serves as deputy secretary general of the MIIT CBD-Forum and the director of the Hyperledger Project. He participated in the preparation of the MIIT Blockchain Whitepaper and related standards.And He had joined the work group of expert on the standardization of ISO/IEC TC307 blockchain/DLT.",
 };
 window.EN = EN;

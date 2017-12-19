@@ -81,5 +81,14 @@ const CN = {
     ourteam_section3_desc: "北京大学副研究员，德国曼海姆大学访问学者，主要研究方向为密码学和安全协议，著名国密算法开源项目GmSSL的主要开发者和社区领袖，研发了Hyperledger Fabric国密算法套件，培养了多名区块链方向硕士研究生。在椭圆曲线加密算法性能优化与安全增强领域有丰富研究和工程实践经验。",
     ourteam_section4_name: "陈宇",
     ourteam_section4_desc: "中国科学院信息工程研究所信息安全国家重点实验室副研究员、硕士生导师，主持国家自然科学基金两项。入选中国科学院青年创新促进会会员，担任中国密码学会青年工作委员会委员。主要研究方向为公钥密码学、可证明安全理论、基本密码组件等。近年在密码学领域高水平期刊Design, Codes and Cryptography等及国际会议CRYPTO、PKC、SCN等上发表学术论文多篇。",
+
+    cornerstone_title: "InvestDigital的基石投资人",
+    cornerstone_section1_name: "曾林钏",
+    cornerstone_section1_desc: "比莱资本创始人兼CEO",
+    cornerstone_section1_info: "原区块链第一股金丘股份区块链事业部总经理；区块链行业最知名的专家之一，致力于区块链技术的落地应用；工信部区块链标准制定人员。",
+
+    cornerstone_section2_name: "季宙栋",
+    cornerstone_section2_desc: "资深区块链专家",
+    cornerstone_section2_info: "前知名500强集团区块链负责人，担任工信部区块链产业发展论坛副秘书长，超级账本董事成员，先后参与工信部白皮书编写和有关标准发布，撰写有《区块链开发指南》等专业书籍。",
 };
 window.CN = CN;

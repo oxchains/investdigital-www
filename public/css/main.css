@@ -359,3 +359,7 @@
 .select-design .hidden{
     display: none;
 }
+#cornerstone {
+    background: url("../../public/img/cornerstone_bg.jpg") no-repeat center;
+    background-size: cover;
+}

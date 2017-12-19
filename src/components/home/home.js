@@ -6,6 +6,7 @@ import Technology from './technology';
 import Ourteams from "./ourteams";
 import Circuit from './circuit'
 import Consultant from './consultant'
+import Cornerstone from './cornerstone'
 import {getLocalValue} from '../common/language';
 
 class Home extends Component{
@@ -18,6 +19,7 @@ class Home extends Component{
                 <Banner/>
                 <Product/>
                 <Technology/>
+                <Cornerstone />
                 <Circuit/>
                 <Ourteams/>
                 <Consultant/>
