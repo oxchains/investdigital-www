@@ -33,7 +33,6 @@ class Home extends Component{
                 <VideoBottom/>
                 <Investor/>
                 <Cornerstone />
-                <New/>
                 <Circuit/>
                 <Ourteams/>
                 <Consultant/>

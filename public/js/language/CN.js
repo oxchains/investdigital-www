@@ -163,6 +163,6 @@ const CN = {
     video_title_li4: "平等开放投资交流社区，与“大咖”零距离沟通",
     video_watch: "点击查看完整视频",
 
-    investor_title: "InvestDigital的投资机构",
+    investor_title: "InvestDigital的机构投资者",
 };
 window.CN = CN;
