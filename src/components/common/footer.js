@@ -27,6 +27,15 @@ class Footer extends Component{
                                 <a className="g-color-white-opacity-0_8" href="#"><i className="fa fa-qq fa-lg"></i></a>
                             </li>
                         </ul>
+                        <div style={{width: "100%", paddingTop: "3%"}}>
+                           <div style={{width: "50%", display: "inline-block", textAlign: "right", paddingRight: "6%"}}>
+                               <img src="/public/img/idc_qrcode.jpg" style={{width: "110px"}}/><br/>
+                                InvestDigital小秘
+                            </div>
+                            <div style={{width: "50%", display: "inline-block", textAlign: "left", paddingLeft: "6%"}}>
+                                <img src="/public/img/id_wechat.jpg" style={{width: "110px", marginLeft: "3%"}}/><br/>
+                                InvestDigital微信公众号</div>
+                        </div>
                     </div>
                 </footer>
             </div>

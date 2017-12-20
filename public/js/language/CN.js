@@ -28,6 +28,40 @@ const CN = {
     product_section6_title: "数字货币金融投资产品",
     product_section6_content: "开发数字货币投资组合如ETF、FOF等，填补数字货币市场基金产品空缺",
 
+
+    tendency_title: "全球数字货币投资趋势",
+    tendency_des1: "全球数字货币市场规模约3000亿美金。",
+    tendency_des2: "2017年11月12日单日交易量为260亿美金。",
+    tendency_btn1: "数字货币市值激增",
+    tendency_btn2: "数字货币投资火热",
+
+
+    market_requirement_title: "数字货币投资的市场需求",
+    market_requirement_role1: "普通投资者",
+    market_requirement_role2: "专业投资者",
+    market_requirement_role1_des: "普通投资者缺乏加密数字货币投资的知识和技能，急需专业资管服务",
+    market_requirement_role2_des: "专业投资者缺乏连接普通投资者的渠道，并且难以取得投资者信任",
+    market_requirement_matter_title1: "赚多少？",
+    market_requirement_matter_solution1: "数字货币投资业绩展示与鉴证",
+    market_requirement_matter_title2: "在哪买？",
+    market_requirement_matter_solution2: "提供数字货币基金投资入口",
+    market_requirement_matter_title3: "可信吗？",
+    market_requirement_matter_solution3: "解决资金安全和信任问题",
+    market_requirement_matter_title4: "基金怎么发？",
+    market_requirement_matter_solution4: "通过基金发行工具与配套服务",
+    market_requirement_matter_title5: "客户怎么找？",
+    market_requirement_matter_solution5: "通过社区建立与客户的连接",
+    market_requirement_matter_title6: "业绩怎么秀？",
+    market_requirement_matter_solution6: "通过基金市场的业绩排行榜",
+    market_requirement_center1: "投资社区",
+    market_requirement_center2: "基金工厂",
+    market_requirement_center3: "基金市场",
+
+
+    goal_title: "InvestDigital的目标",
+    goal_content: "打造数字货币一站式投资服务平台，连接普通投资者和专业投资者， 帮助普通投资者发现专业的资管服务，帮助专业投资者建立并发行自己的数字货币基金，并进行展示和代销。",
+
+
     technology_title: "InvestDigital技术创新",
     technology_section1_title: "EOS——高效",
     technology_section1_desc: "首个基于EOS区块链的智能投资协议",
@@ -63,9 +97,9 @@ const CN = {
     team_section4_name: "晁辉",
     team_section4_desc: "负责InvestDigital系统架构。资深互联网技术和产品技术管理专家。早年进入北京大学攻读理学博士学位，后离校创业。曾在雪球网担任高级总监，在阿里巴巴支付宝担任资深架构师，拥有十五年大型金融和互联网系统研发和管理经验。",
     team_section5_name: "张力",
-    team_section5_desc: "负责InvestDigital市场推广与社区建设。方正证券资产管理分公司权益投资经理，北京大学博士，量化交易专家，资深证券投资专家。证券从业经历8年，金融信息化研究经历13年，拥有丰富资产管理经验和客户资源。",
+    team_section5_desc: "负责InvestDigital市场推广与社区建设。国内顶级券商权益投资经理，北京大学博士，量化交易专家，资深证券投资专家。证券从业经历8年，金融信息化研究经历13年，拥有丰富资产管理经验和客户资源。",
     team_section6_name: "王前锋",
-    team_section6_desc: "负责InvestDigital项目投资策略和产品风控。泰康资产高级产品经理，香港中文大学金融工程硕士，智能投顾专家。曾参与沪港深投资产品、MSCI指数产品、量化策略产品等的开发和发行，著有智能投顾专著《量化大类资产配置》。",
+    team_section6_desc: "负责InvestDigital项目投资策略和产品风控。国内顶级资管公司高级产品经理，香港中文大学金融工程硕士，智能投顾专家。曾参与沪港深投资产品、MSCI指数产品、量化策略产品等的开发和发行，著有智能投顾专著《量化大类资产配置》。",
     team_section7_name: "唐聪",
     team_section7_desc: "负责InvestDigital区块链和密码学技术架构。北京大学理学博士，纽约大学访问学者。原北信源（300352）产品总监，区块链和分布式账本技术专家，网络和信息安全领域专家。有丰富的区块链架构设计与系统开发落地经验。主持研发供应链金融、产品追溯和医疗健康等多个行业区块链产品和应用。",
     team_section8_name: "孟宏伟",
@@ -75,7 +109,7 @@ const CN = {
     team_section10_name: "刘浛",
     team_section10_desc: "负责InvestDigital智能合约形式化验证。清华大学博士，加州大学戴维斯分校访问学者。主要研究领域为软件缺陷检测及漏洞分析、软件测试等。主持和负责DATE：Java程序动态分析及测试平台项目，开发了多个软件安全验证和自动化测试平台，包括Closure*工具，Tsmart-SiRi异步嵌入式系统的建模、验证工具，Tsmart-Edola同步系统集成开发平台。",
     team_section11_name: "张培宇",
-    team_section11_desc: "香港中文大学理学硕士，中金量化研究员，从事机器学习，资产配置等权益投资研究。有丰富的数字货币量化投资经验。",
+    team_section11_desc: "香港中文大学理学硕士，国内顶级券商量化研究员，从事机器学习，资产配置等权益投资研究。有丰富的数字货币量化投资经验。",
 
     ourteam_title: "顾问团队",
     ourteam_section1_name: "OracleChain",
@@ -86,5 +120,15 @@ const CN = {
     ourteam_section3_desc: "北京大学副研究员，德国曼海姆大学访问学者，主要研究方向为密码学和安全协议，著名国密算法开源项目GmSSL的主要开发者和社区领袖，研发了Hyperledger Fabric国密算法套件，培养了多名区块链方向硕士研究生。在椭圆曲线加密算法性能优化与安全增强领域有丰富研究和工程实践经验。",
     ourteam_section4_name: "陈宇",
     ourteam_section4_desc: "中国科学院信息工程研究所信息安全国家重点实验室副研究员、硕士生导师，主持国家自然科学基金两项。入选中国科学院青年创新促进会会员，担任中国密码学会青年工作委员会委员。主要研究方向为公钥密码学、可证明安全理论、基本密码组件等。近年在密码学领域高水平期刊Design, Codes and Cryptography等及国际会议CRYPTO、PKC、SCN等上发表学术论文多篇。",
+
+
+    cornerstone_title: "InvestDigital的基石投资人",
+    cornerstone_section1_name: "曾林钏",
+    cornerstone_section1_desc: "比莱资本创始人兼CEO",
+    cornerstone_section1_info: "原区块链第一股金丘股份区块链事业部总经理；区块链行业最知名的专家之一，致力于区块链技术的落地应用；工信部区块链标准制定人员。",
+
+    cornerstone_section2_name: "季宙栋",
+    cornerstone_section2_desc: "资深区块链专家",
+    cornerstone_section2_info: "前知名500强集团区块链负责人，担任工信部区块链产业发展论坛副秘书长，超级账本董事成员，先后参与工信部白皮书编写和有关标准发布，撰写有《区块链开发指南》等专业书籍。",
 };
 window.CN = CN;

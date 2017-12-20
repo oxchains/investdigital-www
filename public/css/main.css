@@ -308,13 +308,7 @@
     font-size: 12px;
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
-#lawbanner
-{
-    background-image: url('../../public/img/lawbg.jpg');
-}
-.law-container {
-    margin-top: 61px;
-}
+
 .langs-items{
     background-color: dimgrey;
     position: absolute;
@@ -358,6 +352,11 @@
 
 .select-design .hidden{
     display: none;
+}
+
+#cornerstone {
+    background: url("../../public/img/cornerstone_bg.jpg") no-repeat center;
+    background-size: cover;
 }
 /*top*/
 .navP{
