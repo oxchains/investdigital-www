@@ -6,7 +6,6 @@ import Header from  './components/common/header';
 import Footer from './components/common/footer';
 import Home from './components/home/home';
 
-//
 // const createStoreWithMiddleware = compose(
 //     applyMiddleware(reduxThunk),
 //     window.devToolsExtension ? window.devToolsExtension() : f => f

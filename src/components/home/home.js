@@ -6,10 +6,8 @@ import Technology from './technology';
 import Ourteams from "./ourteams";
 import Circuit from './circuit'
 import Consultant from './consultant'
-<<<<<<< HEAD
-=======
+
 import Cornerstone from './cornerstone';
->>>>>>> f2c31098b34821f8c39ce45ecb7bbaa4d8b84a03
 import New from './new'
 import VideoBottom from './videoBottom'
 import Video from './video';
