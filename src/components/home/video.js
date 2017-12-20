@@ -31,11 +31,11 @@ class Video extends Component{
                             </video>
 
                         <div className={"na"}>
-                            <a className="js-fancybox d-block" title="Single Image" href="/public/img/bgVideo.mp4">
+                            <a className="js-fancybox d-block" title="Single Image" href="http://player.youku.com/embed/XMzE5NTA1ODI5Mg=='">
                                 <span className="u-icon-v3 u-icon-size--lg g-color-black g-color-primary--hover g-font-size-20 g-rounded-50x g-cursor-pointer">
                                     <i className="g-pos-rel g-left-2 fa fa-play"></i></span>
                             </a>
-                            <span className="d-block g-color-white g-font-size-20 text-uppercase g-letter-spacing-5">点击查看完整视频</span>
+                            <span className="d-block g-color-white g-font-size-20 text-uppercase g-letter-spacing-5">{getLocalValue("video_watch")}</span>
                         </div>
                     </div>
                 </div>

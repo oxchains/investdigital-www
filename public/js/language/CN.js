@@ -130,5 +130,12 @@ const CN = {
     cornerstone_section2_name: "季宙栋",
     cornerstone_section2_desc: "资深区块链专家",
     cornerstone_section2_info: "前知名500强集团区块链负责人，担任工信部区块链产业发展论坛副秘书长，超级账本董事成员，先后参与工信部白皮书编写和有关标准发布，撰写有《区块链开发指南》等专业书籍。",
+
+    video_title: "随时随地，智能交易",
+    video_title_li1: "提供多种维度排行榜，快速发现优质基金",
+    video_title_li2: "提供用户友好图形界面，一键轻松投资全球",
+    video_title_li3: "基金认购支持多种数字货币，免除复杂流程",
+    video_title_li4: "平等开放投资交流社区，与“大咖”零距离沟通",
+    video_watch: "点击查看完整视频",
 };
 window.CN = CN;

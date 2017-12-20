@@ -88,5 +88,12 @@ const EN = {
     ourteam_section3_desc: "Associate professor at Peking University and visiting scholar at Mannheim University in Germany. His main research interests include cryptography and security protocols. He is one of the major developers and community leaders in GmSSL, a well-known open source project for the secret algorithm. He has developed Hyperledger Fabric, the National Security Algorithm Suite and tutored several Masters majored in blockchain. He has rich research and engineering experience in the field of performance optimization and security enhancement of elliptic curve cryptography.",
     ourteam_section4_name: "Chen Yu",
     ourteam_section4_desc: "Associate researcher in State Key Laboratory of Information Security in Institute of Information Engineering of CAS, master tutor, presided over two of the National Natural Science Foundation. He was selected as a member of the Youth Innovation Promotion Association of the Chinese Academy of Sciences and a member of the Youth Work Committee of the Chinese Cryptography Society. His main research interests include public-key cryptography, provable security theory, and basic cryptographic components. In recent years, he has published many academic papers on high-level periodicals such as Design, Codes and Cryptography, and international conferences such as CRYPTO, PKC, SCN, etc.",
+
+    video_title: "随时随地，智能交易",
+    video_title_li1: "提供多种维度排行榜，快速发现优质基金",
+    video_title_li2: "提供用户友好图形界面，一键轻松投资全球",
+    video_title_li3: "基金认购支持多种数字货币，免除复杂流程",
+    video_title_li4: "平等开放投资交流社区，与“大咖”零距离沟通",
+    video_watch: "点击查看完整视频",
 };
 window.EN = EN;
