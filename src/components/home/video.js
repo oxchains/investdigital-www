@@ -25,14 +25,15 @@ class Video extends Component{
                         {/*<div className="js-bg-video g-pos-abs w-100 h-100" data-hs-bgv-type="vimeo" data-hs-bgv-id="167434033" data-hs-bgv-loop="1"></div>*/}
                     {/*</div>*/}
                     <div className="text-center g-pos-rel g-z-index-1 " style={{width:"100%",height:"auto",backgroundColor:"#FFF",fontSize:0}}>
-                        <video classID={"example_video_1"} className={"video-js vjs-default-skin vjs-big-play-centered "} style={{display:"block",fontSize:0}} width="100%" height="auto"  preload="auto" data-setup="{example_option:true}" poster="/public/img/bgVideo.mp4" playsInline="webkit-playsinline" loop="loop" autoPlay="autoPlay"  src="/public/img/bgVideo.mp4"  >
-                        <source src="/public/img/bgVideo.mp4" type="video/mp4" />
-                        </video>
+                        <div style={{zIndex:999,backgroundColor:"#000"}}></div>
+                            <video classID={"example_video_1"} className={"video-js vjs-default-skin vjs-big-play-centered "} style={{display:"block",fontSize:0}} width="100%" height="auto"  preload="auto" data-setup="{example_option:true}" poster="/public/img/bgVideo.mp4" playsInline="webkit-playsinline" loop="loop" autoPlay="autoPlay"  src="/public/img/bgVideo.mp4"  >
+                            <source src="/public/img/bgVideo.mp4" type="video/mp4" />
+                            </video>
+
                         <div className={"na"}>
                             <a className="js-fancybox d-block" title="Single Image" href="/public/img/bgVideo.mp4">
                                 <span className="u-icon-v3 u-icon-size--lg g-color-black g-color-primary--hover g-font-size-20 g-rounded-50x g-cursor-pointer">
-                                    <i className="g-pos-rel g-left-2 fa fa-play"></i>
-                                </span>
+                                    <i className="g-pos-rel g-left-2 fa fa-play"></i></span>
                             </a>
                             <span className="d-block g-color-white g-font-size-20 text-uppercase g-letter-spacing-5">点击查看完整视频</span>
                         </div>

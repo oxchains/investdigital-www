@@ -362,9 +362,12 @@
 .navP{
     height: auto;
     margin-bottom: 1px;
+    position: relative;
+    bottom: 82px;
+    background-color: #fff;
 }
 .pict{
-    height: 600px;
+    height: 450px;
     background: url("/public/img/new.gif") no-repeat  ;
     /*left: 100px;*/
     z-index: 1;
@@ -381,11 +384,11 @@
     position: relative;
     left: 92px;
     top: 82px;
-    transform:rotate(30deg);
-    -ms-transform:rotate(30deg);
-    -moz-transform:rotate(30deg);
-    -webkit-transform:rotate(30deg);
-    -o-transform:rotate(30deg);
+    transform:rotate(31deg);
+    -ms-transform:rotate(31deg);
+    -moz-transform:rotate(31deg);
+    -webkit-transform:rotate(31deg);
+    -o-transform:rotate(31deg);
 }
 .pict img{
 }
@@ -413,12 +416,23 @@
 .shad{
     box-shadow: 0 0 40px 5px rgba(0, 0, 0, 0.09);
 }
-.na{
-    padding: 0;
-    z-index: 99;
-    position: relative;
-    bottom:100px;
-    left: 0;
+@media screen and (min-width:570px){
+    .na{
+        padding: 0;
+        z-index: 99;
+        position: relative;
+        bottom:170px;
+        left: 0;
+    }
+}
+@media screen and (max-width:570px){
+    .na {
+        padding: 0;
+        z-index: 99;
+        position: relative;
+        bottom:100px;
+        left: 0;
+    }
 }
 .new-image1{
     background: url("/public/img/new1.png")no-repeat;

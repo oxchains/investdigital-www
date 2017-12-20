@@ -8,7 +8,6 @@ import Circuit from './circuit'
 import Consultant from './consultant'
 
 import Cornerstone from './cornerstone';
-import New from './new'
 import VideoBottom from './videoBottom'
 import Video from './video';
 import {getLocalValue} from '../common/language';
@@ -25,7 +24,6 @@ class Home extends Component{
                 <Technology/>
                 <Video/>
                 <VideoBottom/>
-                <New/>
                 <Circuit/>
                 <Ourteams/>
                 <Consultant/>

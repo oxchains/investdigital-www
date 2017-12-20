@@ -14,7 +14,8 @@ class VideoBottom extends Component{
     }
     render(){
         return(
-            <div className="container px-0 navP">
+            <div style={{backgroundColor:"#FFFFFF"}}>
+            <div className="container px-0 navP" >
                 <div className="row">
                     <div className="col-sm-6 col-lg-6 pict">
                         <video classID={"example_video_1"} className={"video-js vjs-default-skin vjs-big-play-centered"} width="165" controls preload="auto" poster="/public/img/1513154766.mp4" src="/public/img/1513154766.mp4" data-setup="{example_option:true}" >
@@ -23,8 +24,8 @@ class VideoBottom extends Component{
                     </div>
                     <div className="col-sm-6 col-lg-6 det" style={{paddingRight:50}}>
                         <h3>随时随地，智能交易</h3>
-                        <div style={{height:40}}>
-                        <div style={{width:50,height:6,backgroundColor:"#167aff",float:"right",margin:"auto 0"}}></div>
+                        <div className="nl-underline g-mb-15">
+                            <span className="nl-style" style={{float:"right"}}></span>
                         </div>
                         <div>
                             <ul>
@@ -37,6 +38,7 @@ class VideoBottom extends Component{
                     </div>
 
                 </div>
+            </div>
             </div>
         )
     }
