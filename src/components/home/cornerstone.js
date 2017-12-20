@@ -12,11 +12,11 @@ class Cornerstone extends Component{
                             </span>
                     <h3 className="h5 g-font-weight-600 g-font-size-18 text-uppercase mb-3 g-color-white" style={{marginTop: "20px"}}>{item.name}</h3>
                     <h3 className="h5 g-font-weight-600 g-font-size-16 text-uppercase mb-3" style={{color: "#167aff"}}>{item.desc}</h3>
-                    <p className="mb-0 text-left g-font-size-14" style={{color: "#ffffff"}}>
+                    <div className="mb-0 text-left g-font-size-14" style={{color: "#ffffff"}}>
                         <div style={{maxWidth: "350px",with: "100%", height: "100%", margin: "0 auto"}} className="text-left">
                             {item.info}
                         </div>
-                    </p>
+                    </div>
                 </div>
             </div>
         )
