@@ -14,6 +14,38 @@ const EN = {
     about_why: "What is InvestDigital?",
     about_answer: "InvestDigital is the asset management protocol and toolset for cryptocurrencies, and it is implemented on EOS block chain. Our vision is to build the completed ecosystem from content/tool production to investment strategy and then to financial products for cryptocurrency investment",
 
+    tendency_title: "Global Investment Trend for Cryptocurrencies",
+    tendency_des1: "The global market cap of cryptocurrency is over $600 billion。",
+    tendency_des2: "The daily volume is over $40 billion currently。",
+    tendency_btn1: "The market scale of cryptocurrencies is increasing sharply",
+    tendency_btn2: "The investment market of cryptocurrencies is at fever",
+
+
+    market_requirement_title: "Market Requirements of Cryptocurrency Investment",
+    market_requirement_role1: "Ordinary Investors",
+    market_requirement_role2: "Professional Investors",
+    market_requirement_role1_des: "Ordinary investors are badly in need of professional asset management services because of their lack of knowledge and skill of cryptocurrency investment",
+    market_requirement_role2_des: "Professional investors are lack of channels to connect to ordinary investors, and it’s very hard to gain ordinary investors’ trust.",
+    market_requirement_matter_title1: "How is the profit ?",
+    market_requirement_matter_solution1: "We will provide performance exhibition and evidence services for funds",
+    market_requirement_matter_title2: "How to invest ?",
+    market_requirement_matter_solution2: "We will provide an entrance of cryptocurrency funds investment",
+    market_requirement_matter_title3: "How is the reliability ?",
+    market_requirement_matter_solution3: "We will solve the problems of capital security and reliability",
+    market_requirement_matter_title4: "How to issue funds ?",
+    market_requirement_matter_solution4: "We will provide funds issuance tools and services",
+    market_requirement_matter_title5: "How to find customers ?",
+    market_requirement_matter_solution5: "We will provide communities to build the efficient connections",
+    market_requirement_matter_title6: "How to show the performance ?",
+    market_requirement_matter_solution6: "We will provide performance ranking list in funds market place",
+    market_requirement_center1: "Investment Community",
+    market_requirement_center2: "Fund Works",
+    market_requirement_center3: "Funds",
+
+
+    goal_title: "Our Goals",
+    goal_content: "We are committed to build a one-stop investment service platform for cryptocurrencies, and to build the connections between ordinary investors and professional investors to help ordinary investors finding professional asset management services. We will also help professional investors to build and issue their cryptocurrency funds, and provide exhibition service along with sales service.",
+
     product_title: "InvestDigital Products",
     product_section1_title: "Quantitative Tools",
     product_section1_content: "InvestDigital will provide a set of developer tools for strategies developing, back-testing and firm trading, and help quants improve their algorithms constantly",
@@ -43,7 +75,27 @@ const EN = {
     technology_section4_content: "InvestDigital utilizes reputation mechanism to achieve the motivations with rewards and punishments to keep the community in good condition. One advantage of the reputation system is that it is based on verifiable shuffles and linkable ring signatures technologies, it can achieve anonymous reputation calculation without revealing users’ real identities. This mechanism can increase the participation and loyalty of users",
 
     news_title:'InvestDigital的新闻',
+    news_section1_time1:"Alex Teseira",
+    news_section1_time2:"2017年6月5日",
+    news_section1_title:"我们正在进行巡回演讲",
+    news_section1_content:"唐聪博士为深圳市互金协会主办金融科技第一期专题培训会授课。",
+    news_section1_btn:"详情",
+    news_center:"数字货币一站式投资服务平台",
 
+    news_section2_time1:"Alex Teseira",
+    news_section2_time2:"2017年6月5日",
+    news_section2_title:"独家访问InvestDigital的首席顾问",
+    news_section2_content:"唐聪博士为深圳市互金协会主办金融科技第一期专题培训会授课。",
+
+    news_section3_time1:"Alex Teseira",
+    news_section3_time2:"2017年6月5日",
+    news_section3_title:"互联网大会宣传",
+    news_section3_content:"唐聪博士为深圳市互金协会主办金融科技第一期专题培训会授课。",
+
+    news_section4_time1:"Alex Teseira",
+    news_section4_time2:"2017年6月5日",
+    news_section4_title:"我们正在进行巡回演讲",
+    news_section4_content:"孟宏伟博士应邀为深圳市区块链协会与深圳市防伪协会授课。",
 
     circuit_title: "RoadMap",
     circuit_img: "/public/img/circuit_en.jpg",
@@ -89,11 +141,20 @@ const EN = {
     ourteam_section4_name: "Chen Yu",
     ourteam_section4_desc: "Associate researcher in State Key Laboratory of Information Security in Institute of Information Engineering of CAS, master tutor, presided over two of the National Natural Science Foundation. He was selected as a member of the Youth Innovation Promotion Association of the Chinese Academy of Sciences and a member of the Youth Work Committee of the Chinese Cryptography Society. His main research interests include public-key cryptography, provable security theory, and basic cryptographic components. In recent years, he has published many academic papers on high-level periodicals such as Design, Codes and Cryptography, and international conferences such as CRYPTO, PKC, SCN, etc.",
 
-    video_title: "随时随地，智能交易",
-    video_title_li1: "提供多种维度排行榜，快速发现优质基金",
-    video_title_li2: "提供用户友好图形界面，一键轻松投资全球",
-    video_title_li3: "基金认购支持多种数字货币，免除复杂流程",
-    video_title_li4: "平等开放投资交流社区，与“大咖”零距离沟通",
-    video_watch: "点击查看完整视频",
+    cornerstone_title: "InvestDigital Cornerstone investors",
+    cornerstone_section1_name: "Bruce Zeng",
+    cornerstone_section1_desc: "CEO and Cofounder Of Bitlight Capital",
+    cornerstone_section1_info: "Former Blockchain Department Manager of Gingkoo——the first blockchain concept listed company, a veteran and pioneer of Blockchain Industry 。The staff of the section chain standard of the Ministry of industry and information.",
+
+    cornerstone_section2_name: "Andy Ji",
+    cornerstone_section2_desc: "Senior Blockchain Expert",
+    cornerstone_section2_info: "Andy was in charge of Blockchain/DLT of a fortune global 500 Group Company.He serves as deputy secretary general of the MIIT CBD-Forum and the director of the Hyperledger Project. He participated in the preparation of the MIIT Blockchain Whitepaper and related standards.And He had joined the work group of expert on the standardization of ISO/IEC TC307 blockchain/DLT.",
+
+    video_title: "Intelligent Trading at Anytime and Anywhere",
+    video_title_li1: "We will provide a multi-dimensional leaderboard to help finding quality funds rapidly",
+    video_title_li2: "We will provide a user-friendly GUI to help global investment with one click",
+    video_title_li3: "We will support multi-cryptocurrency for subscribing funds to avoid complex flows",
+    video_title_li4: "We will provide an open and fair community to build a zero-distance communication between investors and “Big Names”",
+    video_watch: "Click for Full Video",
 };
 window.EN = EN;

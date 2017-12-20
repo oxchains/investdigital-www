@@ -413,16 +413,139 @@
     display: inline-block;
     line-height: 50px;
 }
+.det ul li span{
+    margin-left: 30px;
+    width: 10px;
+    height: 10px;
+    background-color: #167aff;
+    display: inline-block;
+    border-radius: 50%;
+}
 .shad{
     box-shadow: 0 0 40px 5px rgba(0, 0, 0, 0.09);
 }
-@media screen and (min-width:570px){
+.na{
+    padding: 0;
+    z-index: 99;
+    position: relative;
+    left: 0;
+}
+@media screen and (min-width:1280px){
     .na{
-        padding: 0;
-        z-index: 99;
-        position: relative;
         bottom:170px;
-        left: 0;
+    }
+}
+@media screen and (max-width:1280px){
+    .na{
+        bottom:100px;
+    }
+}
+@media screen and (max-width:780px){
+    .na{
+        bottom:50px;
+    }
+}
+@media screen and (max-width:570px){
+    .na {
+        bottom:0;
+    }
+}
+/*趋势*/
+.tendency{
+    background: url(/public/img/tendency_bg.png) no-repeat center;
+    background-size: contain;
+}
+.tendency-btn{
+    margin:auto;
+    cursor: pointer;
+    font-weight: 500;
+}
+.tendency-btn1{
+    border-radius: 5px;
+    background:#e4eefd ;
+    color: #167aff;
+}
+.tendency-btn2{
+    border-radius: 5px;
+    background:#fff5e7 ;
+    color: #ff9914;
+}
+.market{
+    background-color: #f5f5f5;
+}
+.market .role-name1{
+    font-weight: 500;
+    color:#167aff ;
+}
+.market .role-name2{
+    font-weight: 500;
+    color:#ff9914;
+}
+.market .role-des{
+    background-color:#e5e5e5 ;
+    border-radius: 10px;
+}
+.market ul{
+  list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.market p{
+    margin: 0;
+}
+.market .market-circle{
+    margin: 0px auto 0;
+    width: 60%;
+    height: 0;
+    padding-top: 60%;
+    border-radius: 100%;
+    border: 1px solid #a6a6a6;
+    box-sizing: border-box;
+    position: relative;
+}
+.market-circle .layout {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.market-circle .layout.middle:before {
+    display: inline-block;
+    vertical-align: middle;
+
+    content: '';
+    height: 100%;
+    width: 0;
+    overflow: hidden;
+}
+.market-circle .layout.middle ul:first-child {
+    display: inline-block;
+    vertical-align: middle;
+}
+.goal{
+    background:url("/public/img/goal_bg.png") no-repeat center;
+
+}
+.n-bg-white{
+    background-color: white !important;
+}
+.new-center{
+    color: #167aff;
+    background-color: #e3edfb;
+}
+.new-btn{
+    background: #167aff;
+    color:white ;
+}
+.new-btn:hover{
+    box-shadow: 0 0 20px #cce2ff !important;
+}
+@media (min-width: 768px) {
+    .g-ml-60--md{
+        margin-left: 4.28571rem !important;
     }
 }
 @media screen and (max-width:570px){
@@ -434,23 +557,19 @@
         left: 0;
     }
 }
-.new-image1{
-    background: url("/public/img/new1.png")no-repeat;
-    width: 500px;
-    height: 400px;
+#circuit{
+    background: #fff;
 }
-.new-image2{
-    background: url("/public/img/new2.png")no-repeat;
-    width: 400px;
-    height: 270px;
+#mask{
+    position: absolute;
+    background-color: rgba(0, 0, 0, .5);
+    height: 100%;
+    width: 100%;
+    z-index: 12;
 }
-.new-image3{
-    background: url("/public/img/new3.gif")no-repeat;
-    width: 400px;
-    height: 270px;
+.investor{
+    background: url("/public/img/investor2.jpg") no-repeat;
 }
-.new-image4{
-    background: url("/public/img/new4.png")no-repeat;
-    width: 500px;
-    height: 400px;
+.investor .content{
+    margin: auto;
 }

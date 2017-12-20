@@ -14,20 +14,6 @@ const CN = {
     about_why: "InvestDigital是什么？",
     about_answer: "InvestDigital是实现在EOS区块链上的数字资产管理协议和工具集， 打造从内容/工具生产，到投资策略，再到金融产品的完整生态",
 
-    product_title: "InvestDigital产品和服务",
-    product_section1_title: "量化投资开发者工具",
-    product_section1_content: "InvestDigital提供策略编写、回测框架与实盘交易工具，帮助量化交易者不断完善自己的算法",
-    product_section2_title: "数字货币投资交流社区",
-    product_section2_content: "基于用户间Follow功能的数字货币投资社区，帮助投资者发现有价值的交易策略，不断吸引数字货币投资者参与",
-    product_section3_title: "数字货币基金发行工具",
-    product_section3_content: "为资产管理人提供智能合约和工具，协助发行并运营数字货币基金，并提供业绩鉴证",
-    product_section4_title: "数字货币基金加速服务",
-    product_section4_content: "在平台上筛选表现好、能力强的基金，给予资金、技术和推广支持，并提供风控管理",
-    product_section5_title: "数字货币基金市场",
-    product_section5_content: "为投资者提供数字货币基金投资入口，为平台上优秀的基金提供产品展示和销售服务",
-    product_section6_title: "数字货币金融投资产品",
-    product_section6_content: "开发数字货币投资组合如ETF、FOF等，填补数字货币市场基金产品空缺",
-
 
     tendency_title: "全球数字货币投资趋势",
     tendency_des1: "全球数字货币市场规模约3000亿美金。",
@@ -62,6 +48,22 @@ const CN = {
     goal_content: "打造数字货币一站式投资服务平台，连接普通投资者和专业投资者， 帮助普通投资者发现专业的资管服务，帮助专业投资者建立并发行自己的数字货币基金，并进行展示和代销。",
 
 
+
+    product_title: "InvestDigital产品和服务",
+    product_section1_title: "量化投资开发者工具",
+    product_section1_content: "InvestDigital提供策略编写、回测框架与实盘交易工具，帮助量化交易者不断完善自己的算法",
+    product_section2_title: "数字货币投资交流社区",
+    product_section2_content: "基于用户间Follow功能的数字货币投资社区，帮助投资者发现有价值的交易策略，不断吸引数字货币投资者参与",
+    product_section3_title: "数字货币基金发行工具",
+    product_section3_content: "为资产管理人提供智能合约和工具，协助发行并运营数字货币基金，并提供业绩鉴证",
+    product_section4_title: "数字货币基金加速服务",
+    product_section4_content: "在平台上筛选表现好、能力强的基金，给予资金、技术和推广支持，并提供风控管理",
+    product_section5_title: "数字货币基金市场",
+    product_section5_content: "为投资者提供数字货币基金投资入口，为平台上优秀的基金提供产品展示和销售服务",
+    product_section6_title: "数字货币金融投资产品",
+    product_section6_content: "开发数字货币投资组合如ETF、FOF等，填补数字货币市场基金产品空缺",
+
+
     technology_title: "InvestDigital技术创新",
     technology_section1_title: "EOS——高效",
     technology_section1_desc: "首个基于EOS区块链的智能投资协议",
@@ -78,6 +80,29 @@ const CN = {
 
 
     news_title:'InvestDigital的新闻',
+    news_section1_time1:"Alex Teseira",
+    news_section1_time2:"2017年6月5日",
+    news_section1_title:"我们正在进行巡回演讲",
+    news_section1_content:"唐聪博士为深圳市互金协会主办金融科技第一期专题培训会授课。",
+    news_section1_btn:"详情",
+    news_center:"数字货币一站式投资服务平台",
+
+    news_section2_time1:"Alex Teseira",
+    news_section2_time2:"2017年6月5日",
+    news_section2_title:"独家访问InvestDigital的首席顾问",
+    news_section2_content:"唐聪博士为深圳市互金协会主办金融科技第一期专题培训会授课。",
+
+    news_section3_time1:"Alex Teseira",
+    news_section3_time2:"2017年6月5日",
+    news_section3_title:"互联网大会宣传",
+    news_section3_content:"唐聪博士为深圳市互金协会主办金融科技第一期专题培训会授课。",
+
+    news_section4_time1:"Alex Teseira",
+    news_section4_time2:"2017年6月5日",
+    news_section4_title:"我们正在进行巡回演讲",
+    news_section4_content:"孟宏伟博士应邀为深圳市区块链协会与深圳市防伪协会授课。",
+
+
 
     circuit_title: "线路图",
     circuit_img: "/public/img/circuit_cn.jpg",
@@ -137,5 +162,7 @@ const CN = {
     video_title_li3: "基金认购支持多种数字货币，免除复杂流程",
     video_title_li4: "平等开放投资交流社区，与“大咖”零距离沟通",
     video_watch: "点击查看完整视频",
+
+    investor_title: "InvestDigital的投资机构",
 };
 window.CN = CN;

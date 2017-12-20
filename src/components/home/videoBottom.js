@@ -12,9 +12,20 @@ class VideoBottom extends Component{
 
         };
     }
+    componentDidMount() {
+        const $ = window.$;
+        let video1=document.getElementsByTagName("video")[1];
+        video1.onclick=function(){
+            if(video1.paused){
+                video1.play();
+            }else{
+                video1.pause();
+            }
+        }
+    }
     render(){
         return(
-            <div style={{backgroundColor:"#FFFFFF"}}>
+            <div style={{backgroundColor:"#FFFFFF", paddingTop:"100px"}}>
             <div className="container px-0 navP" >
                 <div className="row">
                     <div className="col-sm-6 col-lg-6 pict">
@@ -29,10 +40,10 @@ class VideoBottom extends Component{
                         </div>
                         <div>
                             <ul>
-                                <li>{getLocalValue("video_title_li1")}<img src="/public/img/point.png" alt="point"/></li>
-                                <li>{getLocalValue("video_title_li2")}<img src="/public/img/point.png" alt="point"/></li>
-                                <li>{getLocalValue("video_title_li3")}<img src="/public/img/point.png" alt="point"/></li>
-                                <li>{getLocalValue("video_title_li4")}<img src="/public/img/point.png" alt="point"/></li>
+                                <li>{getLocalValue("video_title_li1")}<span></span></li>
+                                <li>{getLocalValue("video_title_li2")}<span></span></li>
+                                <li>{getLocalValue("video_title_li3")}<span></span></li>
+                                <li>{getLocalValue("video_title_li4")}<span></span></li>
                             </ul>
                         </div>
                     </div>
