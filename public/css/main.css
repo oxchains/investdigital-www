@@ -367,7 +367,7 @@
 .pict{
     height: 600px;
     background: url("/public/img/new.gif") no-repeat  ;
-    left: 100px;
+    /*left: 100px;*/
     z-index: 1;
 }
 .vjs-default-skin.vjs-big-play-centered .vjs-big-play-button {
@@ -391,24 +391,25 @@
 .pict img{
 }
 .det{
-    padding-right: 250px;
+    /*padding-right: 250px;*/
     text-align: right;
 }
 .det h3{
     padding-top: 80px;
 }
-.det ul li hr{
-    width: 50px;
-    height: 6px;
-    color: blue;
-    /*margin-left: 267px;*/
-    background-color: blue;
-}
+/*.det ul li hr{*/
+    /*width: 50px;*/
+    /*height: 6px;*/
+    /*color: blue;*/
+    /*!*margin-left: 267px;*!*/
+    /*background-color: blue;*/
+/*}*/
 .det ul{
     list-style: none;
 }
 .det ul li{
-    /*line-height: 50px;*/
+    display: inline-block;
+    line-height: 50px;
 }
 .shad{
     box-shadow: 0 0 40px 5px rgba(0, 0, 0, 0.09);
@@ -417,6 +418,26 @@
     padding: 0;
     z-index: 99;
     position: relative;
-    bottom:225px;
+    bottom:100px;
     left: 0;
+}
+.new-image1{
+    background: url("/public/img/new1.png")no-repeat;
+    width: 500px;
+    height: 400px;
+}
+.new-image2{
+    background: url("/public/img/new2.png")no-repeat;
+    width: 400px;
+    height: 270px;
+}
+.new-image3{
+    background: url("/public/img/new3.gif")no-repeat;
+    width: 400px;
+    height: 270px;
+}
+.new-image4{
+    background: url("/public/img/new4.png")no-repeat;
+    width: 500px;
+    height: 400px;
 }

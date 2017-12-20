@@ -17,19 +17,23 @@ class VideoBottom extends Component{
             <div className="container px-0 navP">
                 <div className="row">
                     <div className="col-sm-6 col-lg-6 pict">
-                        <video classID={"example_video_1"} className={"video-js vjs-default-skin vjs-big-play-centered"} width="165" height="" controls preload="auto" poster="/public/img/1513154766.mp4" src="/public/img/1513154766.mp4" data-setup="{example_option:true}" >
+                        <video classID={"example_video_1"} className={"video-js vjs-default-skin vjs-big-play-centered"} width="165" controls preload="auto" poster="/public/img/1513154766.mp4" src="/public/img/1513154766.mp4" data-setup="{example_option:true}" >
                             <source src="/public/img/1513154766.mp4" type="video/mp4" />
                         </video>
                     </div>
-                    <div className="col-sm-6 col-lg-6 det">
+                    <div className="col-sm-6 col-lg-6 det" style={{paddingRight:50}}>
                         <h3>随时随地，智能交易</h3>
-                        <ul>
-                            <li><hr /></li>
-                            <li>提供多种维度排行榜，快速发现优质基金</li>
-                            <li>提供用户友好图形界面，一键轻松投资全球</li>
-                            <li>基金认购支持多种数字货币，免除复杂流程</li>
-                            <li>平等开放投资交流社区，与“大咖”零距离沟通</li>
-                        </ul>
+                        <div style={{height:40}}>
+                        <div style={{width:50,height:6,backgroundColor:"#167aff",float:"right",margin:"auto 0"}}></div>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>提供多种维度排行榜，快速发现优质基金 <img src="/public/img/point.png" alt="point"/></li>
+                                <li>提供用户友好图形界面，一键轻松投资全球<img src="/public/img/point.png" alt="point"/></li>
+                                <li>基金认购支持多种数字货币，免除复杂流程<img src="/public/img/point.png" alt="point"/></li>
+                                <li>平等开放投资交流社区，与“大咖”零距离沟通<img src="/public/img/point.png" alt="point"/></li>
+                            </ul>
+                        </div>
                     </div>
 
                 </div>

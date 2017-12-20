@@ -6,7 +6,6 @@ import Technology from './technology';
 import Ourteams from "./ourteams";
 import Circuit from './circuit'
 import Consultant from './consultant'
-import VideoTop from './videoTop'
 import New from './new'
 import VideoBottom from './videoBottom'
 import Video from './video';
@@ -23,7 +22,6 @@ class Home extends Component{
                 <Product/>
                 <Technology/>
                 <Video/>
-                {/*<VideoTop/>*/}
                 <VideoBottom/>
                 <New/>
                 <Circuit/>
