@@ -1,5 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
+let ExtractTextPlugin = require("extract-text-webpack-plugin");
 let prod = process.env.NODE_ENV === 'production';
 
 const static1 = [
@@ -10,10 +11,12 @@ const static1 = [
     "./public/js/js/helpers/hs.hamburgers.js",
     "./public/js/js/components/hs.popup.js",
     "./public/js/js/components/hs.scroll-nav.js",
-]
+    "./public/js/language/CN.js",
+    "./public/js/language/EN.js"
+];
 module.exports = {
     entry: {
-        'vendor': static1,
+        "vendor": static1,
         "bundle": "./src/index.js",
         "main": "./public/js/main.js",
     },

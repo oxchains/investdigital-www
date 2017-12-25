@@ -40,10 +40,10 @@ class VideoBottom extends Component{
                         </div>
                         <div>
                             <ul>
-                                <li>{getLocalValue("video_title_li1")}<span></span></li>
-                                <li>{getLocalValue("video_title_li2")}<span></span></li>
-                                <li>{getLocalValue("video_title_li3")}<span></span></li>
-                                <li>{getLocalValue("video_title_li4")}<span></span></li>
+                                <li className="g-pt-40">{getLocalValue("video_title_li1")}<span></span></li>
+                                <li className="g-pt-40">{getLocalValue("video_title_li2")}<span></span></li>
+                                <li className="g-pt-40">{getLocalValue("video_title_li3")}<span></span></li>
+                                <li className="g-py-40">{getLocalValue("video_title_li4")}<span></span></li>
                             </ul>
                         </div>
                     </div>

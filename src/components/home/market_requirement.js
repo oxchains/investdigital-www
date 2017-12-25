@@ -13,10 +13,18 @@ class MarketRequirement extends Component{
 
         };
     }
-    renderList(item,index){
+    renderList1(item,index){
         return(
             <li className="g-pb-30" key={index}>
                 <p className="role-name1">{item.title}</p>
+                <p className="g-font-size-14">{item.content}</p>
+            </li>
+        );
+    }
+    renderList2(item,index){
+        return(
+            <li className="g-pb-30" key={index}>
+                <p className="role-name2">{item.title}</p>
                 <p className="g-font-size-14">{item.content}</p>
             </li>
         );
@@ -78,7 +86,7 @@ class MarketRequirement extends Component{
                             <div className="col-sm-12 g-font-size-16 g-mt-40">
                                 <div className="float-left col-md-4 col-sm-12 text-right g-py-20">
                                     <ul>
-                                        {listinfo1.map(this.renderList)}
+                                        {listinfo1.map(this.renderList1)}
                                     </ul>
                                 </div>
                                 <div className="float-left col-md-4 col-sm-12 g-py-20">
@@ -92,7 +100,7 @@ class MarketRequirement extends Component{
                                 </div>
                                 <div className="float-left col-md-4 col-sm-12 text-left g-py-20">
                                     <ul>
-                                        {listinfo2.map(this.renderList)}
+                                        {listinfo2.map(this.renderList2)}
                                     </ul>
                                 </div>
                             </div>

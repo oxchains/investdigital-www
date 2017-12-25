@@ -5,6 +5,7 @@ import {Route, BrowserRouter, Switch, Redirect} from 'react-router-dom';
 import Header from  './components/common/header';
 import Footer from './components/common/footer';
 import Home from './components/home/home';
+import './css/main.css';
 
 // const createStoreWithMiddleware = compose(
 //     applyMiddleware(reduxThunk),

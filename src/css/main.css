@@ -399,19 +399,10 @@
 .det h3{
     padding-top: 80px;
 }
-/*.det ul li hr{*/
-    /*width: 50px;*/
-    /*height: 6px;*/
-    /*color: blue;*/
-    /*!*margin-left: 267px;*!*/
-    /*background-color: blue;*/
-/*}*/
+
 .det ul{
     list-style: none;
-}
-.det ul li{
-    display: inline-block;
-    line-height: 50px;
+    padding: 0;
 }
 .det ul li span{
     margin-left: 30px;
@@ -424,35 +415,9 @@
 .shad{
     box-shadow: 0 0 40px 5px rgba(0, 0, 0, 0.09);
 }
-.na{
-    padding: 0;
-    z-index: 99;
-    position: relative;
-    left: 0;
-}
-@media screen and (min-width:1280px){
-    .na{
-        bottom:170px;
-    }
-}
-@media screen and (max-width:1280px){
-    .na{
-        bottom:100px;
-    }
-}
-@media screen and (max-width:780px){
-    .na{
-        bottom:50px;
-    }
-}
-@media screen and (max-width:570px){
-    .na {
-        bottom:0;
-    }
-}
 /*趋势*/
 .tendency{
-    background: url(/public/img/tendency_bg.png) no-repeat center;
+    background: url(/public/img/tendency_bg.png) no-repeat 70% center;
     background-size: contain;
 }
 .tendency-btn{
@@ -527,6 +492,7 @@
 }
 .goal{
     background:url("/public/img/goal_bg.png") no-repeat center;
+    background-size: cover;
 
 }
 .n-bg-white{
@@ -548,15 +514,33 @@
         margin-left: 4.28571rem !important;
     }
 }
-@media screen and (max-width:570px){
-    .na {
-        padding: 0;
-        z-index: 99;
-        position: relative;
-        bottom:100px;
-        left: 0;
+.na{
+    padding: 0;
+    z-index: 99;
+    position: relative;
+    left: 0;
+}
+@media screen and (min-width:1280px){
+    .na{
+        bottom:170px;
     }
 }
+@media screen and (max-width:1280px){
+    .na{
+        bottom:100px;
+    }
+}
+@media screen and (max-width:780px){
+    .na{
+        bottom:50px;
+    }
+}
+@media screen and (max-width:570px){
+    .na {
+        bottom:0;
+    }
+}
+
 #circuit{
     background: #fff;
 }
