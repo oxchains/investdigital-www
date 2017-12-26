@@ -1,7 +1,8 @@
 import React,{ Component } from 'react';
 
 import Product from './product';
-import  Banner from './banner';
+// import  Banner from './banner';
+import  BannerNew from './banner_new';
 import Technology from './technology';
 import New from './new';
 import Ourteams from "./ourteams";
@@ -23,7 +24,8 @@ class Home extends Component{
     render(){
         return(
             <section id="about-section" className="g-bg-secondary g-pos-rel" ref={node => this.node = node}>
-                <Banner/>
+                {/*<Banner/>*/}
+                <BannerNew/>
                 <Tendency/>
                 <MarketRequirement/>
                 <Goal/>

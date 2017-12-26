@@ -20,7 +20,6 @@ const EN = {
     tendency_btn1: "The market scale of cryptocurrencies is increasing sharply",
     tendency_btn2: "The investment market of cryptocurrencies is at fever",
 
-
     market_requirement_title: "Market Requirements of Cryptocurrency Investment",
     market_requirement_role1: "Ordinary Investors",
     market_requirement_role2: "Professional Investors",
@@ -104,8 +103,6 @@ const EN = {
     circuit_section3_info: "Conception of InvestDigital",
     circuit_section4_info: "Technical verification of InvestDigital",
     circuit_section5_info: "Demo of Marketplace",
-
-
 
     team_title: "Core Team",
     team_section1_name: "Daniele Bernardi",
