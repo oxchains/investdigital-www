@@ -12,7 +12,6 @@ class Header extends Component{
 
     componentDidMount() {
         const $ = window.$;
-
         // initialization of header
         $.HSCore.components.HSHeader.init($('#js-header'));
         $.HSCore.helpers.HSHamburgers.init('.hamburger');
@@ -49,6 +48,11 @@ class Header extends Component{
                                         <Link to="/" className='nav-link nl-nav-link g-px-0'>
                                             {getLocalValue("nav_home")}
                                         </Link>
+                                    </li>
+                                    <li className='nav-item g-mx-25--lg'>
+                                        <a href="#crowd-funding" className='nav-link nl-nav-link g-px-0'>
+                                            {getLocalValue("nav_crowd")}
+                                        </a>
                                     </li>
                                     <li className='nav-item g-mx-25--lg'>
                                         <a href="#ourteam" className='nav-link nl-nav-link g-px-0' >

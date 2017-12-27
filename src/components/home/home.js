@@ -16,6 +16,8 @@ import Tendency from './tendency'
 import MarketRequirement from './market_requirement'
 import Goal from './goal'
 import Partner from './partner'
+import ProjectDescription from './project_description';
+import CrowdFunding from './crowd_funding';
 import {getLocalValue} from '../common/language';
 
 class Home extends Component{
@@ -37,6 +39,8 @@ class Home extends Component{
                 <Investor/>
                 <Cornerstone />
                 <Partner/>
+                <CrowdFunding/>
+                <ProjectDescription/>
                 <Circuit/>
                 <Ourteams/>
                 <Consultant/>

@@ -65,27 +65,32 @@ class Ourteams extends Component {
                 info: getLocalValue("team_section6_desc")
             },
             {
-                src: `${ROOT_URL}public/img/tangcong.png`,
+
+                src: `${ROOT_URL}public/img/zhangpeiyu.png`,
                 name: getLocalValue("team_section7_name"),
                 info: getLocalValue("team_section7_desc")
             },
             {
-                src: `${ROOT_URL}public/img/menghongwei.png`,
+
+                src: `${ROOT_URL}public/img/huchengjian.png`,
                 name: getLocalValue("team_section8_name"),
                 info: getLocalValue("team_section8_desc")
             },
             {
-                src: `${ROOT_URL}public/img/huchengjian.png`,
+
+                src: `${ROOT_URL}public/img/tangcong.png`,
                 name: getLocalValue("team_section9_name"),
                 info: getLocalValue("team_section9_desc")
             },
             {
-                src: `${ROOT_URL}public/img/liuhan.png`,
+
+                src: `${ROOT_URL}public/img/menghongwei.png`,
                 name: getLocalValue("team_section10_name"),
                 info: getLocalValue("team_section10_desc")
             },
             {
-                src: `${ROOT_URL}public/img/zhangpeiyu.png`,
+
+                src: `${ROOT_URL}public/img/liuhan.png`,
                 name: getLocalValue("team_section11_name"),
                 info: getLocalValue("team_section11_desc")
             },

@@ -44,17 +44,17 @@ class BannerNew extends Component{
                                                 </div>
                                                 <div className="buttons g-mt-60 g-color-white container " style={{"fontWeight": "500"}}>
                                                     <div className="row">
-                                                        <div  id="" className="col-lg-3 select-design btn-default " onClick={this.handleChange.bind(this)}>
-                                                            <span>{getLocalValue("nav_Whitepaper")}<i className="fa fa-angle-down fa-2x pull-right" aria-hidden="true" style={{marginTop: '-4px'}}></i></span>
-                                                            <span className={this.state.show ? "hover" : "hidden"}><a href="/public/InvestDigital_Whitepaper_CN.pdf">白皮书</a></span>
-                                                            <span className={this.state.show ? "hover" : "hidden"}><a href="/public/InvestDigital_Whitepaper_EN.pdf">WHITE PAPER</a></span>
-                                                            <span className={this.state.show ? "hover" : "hidden"}><a href="/public/InvestDigital_Whitepaper_JP.pdf">白書</a></span>
-                                                            <span className={this.state.show ? "hover" : "hidden"}><a href="/public/InvestDigital_Whitepaper_KR.pdf">백서</a></span>
-                                                        </div>
-                                                        <div  id="" className="col-lg-3 " style={{padding:0}}>
-                                                            <div>
-                                                                <span className="col-lg-12 select-design btn-default but_sell g-py-10 g-px-20" style={{display: "block",width:"100%"}}>{getLocalValue("nav_Sellin")}</span>
+                                                        <div className="col-sm-6">
+                                                            <div className=" select-design btn-default " onClick={this.handleChange.bind(this)}>
+                                                                <span>{getLocalValue("nav_Whitepaper")}<i className="fa fa-angle-down fa-2x pull-right" aria-hidden="true" style={{marginTop: '-4px'}}></i></span>
+                                                                <span className={this.state.show ? "hover" : "hidden"}><a href="/public/InvestDigital_Whitepaper_CN.pdf">白皮书</a></span>
+                                                                <span className={this.state.show ? "hover" : "hidden"}><a href="/public/InvestDigital_Whitepaper_EN.pdf">WHITE PAPER</a></span>
+                                                                <span className={this.state.show ? "hover" : "hidden"}><a href="/public/InvestDigital_Whitepaper_JP.pdf">白書</a></span>
+                                                                <span className={this.state.show ? "hover" : "hidden"}><a href="/public/InvestDigital_Whitepaper_KR.pdf">백서</a></span>
                                                             </div>
+                                                        </div>
+                                                        <div className="col-sm-6">
+                                                            <a className="select-design btn-default but_sell g-py-10 g-px-20" href="#crowd-funding" style={{display:"inline-block"}}>{getLocalValue("nav_Sellin")}</a>
                                                         </div>
                                                         <br className="nodesktop nolandscape"/>
                                                     </div>
