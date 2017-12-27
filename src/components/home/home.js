@@ -15,6 +15,7 @@ import Video from './video';
 import Tendency from './tendency'
 import MarketRequirement from './market_requirement'
 import Goal from './goal'
+import Partner from './partner'
 import {getLocalValue} from '../common/language';
 
 class Home extends Component{
@@ -35,6 +36,7 @@ class Home extends Component{
                 <VideoBottom/>
                 <Investor/>
                 <Cornerstone />
+                <Partner/>
                 <Circuit/>
                 <Ourteams/>
                 <Consultant/>

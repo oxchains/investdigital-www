@@ -553,6 +553,7 @@
 }
 .investor{
     background: url("/public/img/investor2.jpg") no-repeat;
+    background-size: cover;
 }
 .investor .content{
     margin: auto;

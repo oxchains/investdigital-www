@@ -155,5 +155,11 @@ const EN = {
     video_watch: "Click for Full Video",
 
     investor_title: "Institutional Investor",
+    investor_inB: "inblockchain",
+    investor_Bix: "币信",
+    investor_Sap: "慧衍创投",
+    investor_QUE: "QUESCHAIN",
+
+    partner_title: "InvestDigital的合作伙伴",
 };
 window.EN = EN;

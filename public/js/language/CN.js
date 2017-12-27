@@ -164,5 +164,11 @@ const CN = {
     video_watch: "点击查看完整视频",
 
     investor_title: "InvestDigital的机构投资者",
+    investor_inB: "inblockchain",
+    investor_Bix: "币信",
+    investor_Sap: "慧衍创投",
+    investor_QUE: "QUESCHAIN",
+
+    partner_title: "InvestDigital的合作伙伴",
 };
 window.CN = CN;
