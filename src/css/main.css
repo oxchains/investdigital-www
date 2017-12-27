@@ -332,8 +332,11 @@
     cursor: pointer;
     width: 165px;
     margin: auto;
-   border-radius: 5px ;
+    border-radius: 5px ;
     border:1px solid white;
+
+}
+.but_sell{
 
 }
 .select-design span{

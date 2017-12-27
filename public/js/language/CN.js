@@ -3,6 +3,7 @@ const CN = {
     nav_team: "团队",
     nav_language: "EN",
     nav_Whitepaper: "白皮书",
+    nav_Sellin : "众售信息",
     change_to_lang: "/?lang=EN",
     nav_whitepaper_url: "https://investdigital.info/public/InvestDigital_Whitepaper_CN.pdf",
     nav_github_url: "https://github.com/investdigital",

@@ -42,15 +42,22 @@ class BannerNew extends Component{
                                                     <span className="nl-style-sm"></span>
                                                     <div className="g-font-size-14">{getLocalValue("about_answer")}</div>
                                                 </div>
-                                                <div className="buttons g-mt-20 g-color-white" style={{"fontWeight": "500"}}>
-                                                    <div  id="" className="select-design btn-default" onClick={this.handleChange.bind(this)}>
-                                                        <span>{getLocalValue("nav_Whitepaper")}<i className="fa fa-angle-down fa-2x pull-right" aria-hidden="true" style={{marginTop: '-4px'}}></i></span>
-                                                        <span className={this.state.show ? "hover" : "hidden"}><a href="/public/InvestDigital_Whitepaper_CN.pdf">白皮书</a></span>
-                                                        <span className={this.state.show ? "hover" : "hidden"}><a href="/public/InvestDigital_Whitepaper_EN.pdf">WHITE PAPER</a></span>
-                                                        <span className={this.state.show ? "hover" : "hidden"}><a href="/public/InvestDigital_Whitepaper_JP.pdf">白書</a></span>
-                                                        <span className={this.state.show ? "hover" : "hidden"}><a href="/public/InvestDigital_Whitepaper_KR.pdf">백서</a></span>
+                                                <div className="buttons g-mt-60 g-color-white container " style={{"fontWeight": "500"}}>
+                                                    <div className="row">
+                                                        <div  id="" className="col-lg-3 select-design btn-default " onClick={this.handleChange.bind(this)}>
+                                                            <span>{getLocalValue("nav_Whitepaper")}<i className="fa fa-angle-down fa-2x pull-right" aria-hidden="true" style={{marginTop: '-4px'}}></i></span>
+                                                            <span className={this.state.show ? "hover" : "hidden"}><a href="/public/InvestDigital_Whitepaper_CN.pdf">白皮书</a></span>
+                                                            <span className={this.state.show ? "hover" : "hidden"}><a href="/public/InvestDigital_Whitepaper_EN.pdf">WHITE PAPER</a></span>
+                                                            <span className={this.state.show ? "hover" : "hidden"}><a href="/public/InvestDigital_Whitepaper_JP.pdf">白書</a></span>
+                                                            <span className={this.state.show ? "hover" : "hidden"}><a href="/public/InvestDigital_Whitepaper_KR.pdf">백서</a></span>
+                                                        </div>
+                                                        <div  id="" className="col-lg-3 " style={{padding:0}}>
+                                                            <div>
+                                                                <span className="col-lg-12 select-design btn-default but_sell g-py-10 g-px-20" style={{display: "block",width:"100%"}}>{getLocalValue("nav_Sellin")}</span>
+                                                            </div>
+                                                        </div>
+                                                        <br className="nodesktop nolandscape"/>
                                                     </div>
-                                                    <br className="nodesktop nolandscape"/>
                                                 </div>
 
                                             </div>
