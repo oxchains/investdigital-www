@@ -4,7 +4,7 @@ const EN = {
     nav_team: "Team",
     nav_language: "中文",
     nav_Whitepaper: "Whitepaper",
-    nav_Sellin : "众售信息",
+    nav_Sellin : "Crowdsale Info",
     change_to_lang: "/?lang=CN",
     nav_whitepaper_url: "https://investdigital.info/public/InvestDigital_Whitepaper_CN.pdf",
     nav_github_url: "https://github.com/investdigital",
@@ -137,7 +137,7 @@ const EN = {
     description_section5_title:"Will the private-sale tokens be locked? ",
     description_section5_content:"Answer: We set a long lock-up period for angel investors and institutional investors; And the tokens held by the project team will be linearly unlocked in four stages in two years because of our confidence in the project and consideration of protecting ordinary investors; And the tokens offered in private sale phase and formal crowd sale phase won’t be locked, and can be traded.",
     description_section6_title:"When will IDC be listed on coin exchanges?",
-    description_section6_content:"答：Answer: The project has received the investment of a number of institutional investors such as InBlockchain, Bixin, Queschain Capital, Sapien Ventures. And at present, we keep good communication with both foreign and domestic coin exchanges. The specific listing will be decided according to market conditions and development progress.",
+    description_section6_content:"Answer: The project has received the investment of a number of institutional investors such as InBlockchain, Bixin, Queschain Capital, Sapien Ventures. And at present, we keep good communication with both foreign and domestic coin exchanges. The specific listing will be decided according to market conditions and development progress.",
 
 
     circuit_title: "RoadMap",
