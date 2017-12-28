@@ -10,7 +10,8 @@ import Circuit from './circuit'
 import Consultant from './consultant'
 import Investor from './investor';
 import Cornerstone from './cornerstone';
-import VideoBottom from './videoBottom'
+import VideoBottom from './videoBottom';
+import Banner from './banner'
 import Video from './video';
 import Tendency from './tendency'
 import MarketRequirement from './market_requirement'
@@ -27,8 +28,8 @@ class Home extends Component{
     render(){
         return(
             <section id="about-section" className="g-bg-secondary g-pos-rel" ref={node => this.node = node}>
-                {/*<Banner/>*/}
-                <BannerNew/>
+                <Banner/>
+                {/*<BannerNew/>*/}
                 <Tendency/>
                 <MarketRequirement/>
                 <Goal/>

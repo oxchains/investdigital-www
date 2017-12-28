@@ -16,32 +16,6 @@ class CrowdFunding extends Component{
             easing: 'easeOutExpo'
         });
     }
-    // crowd_funding_title:"众售说明",
-    // crowd_funding_section1_name1:"项目名称:",
-    // crowd_funding_section1_item1:"InvestDigital",
-    // crowd_funding_section1_name2:"众售时间:",
-    // crowd_funding_section1_item2:"2018年1月14日",
-    // crowd_funding_section1_name3:"代币简称:",
-    // crowd_funding_section1_item3:"IDC",
-    // crowd_funding_section1_name4:"代币总量:",
-    // crowd_funding_section1_item4:"8亿IDC",
-    // crowd_funding_section1_name5:"筹集币种:",
-    // crowd_funding_section1_item5:"ETH",
-    // crowd_funding_section1_name6:"兑换比例:",
-    // crowd_funding_section1_item6:"1:7000",
-    // crowd_funding_section1_name7:"众筹目标:",
-    // crowd_funding_section1_item7:"3.6亿IDC",
-    // crowd_funding_section1_name8:"上限模式:",
-    // crowd_funding_section1_item8:"硬顶2400万美元等值的ETH",
-    //
-    // crowd_funding_section2_time1:"2017.12.25",
-    // crowd_funding_section2_content1:"开始私募",
-    // crowd_funding_section2_time2:"2018.01.14",
-    // crowd_funding_section2_content2:"开始众售",
-    // crowd_funding_section2_content2_tip:"（达到硬顶后立即结束众售）",
-    // crowd_funding_section2_time3:"",
-    // crowd_funding_section2_content3:"众售结束",
-    // crowd_funding_section2_content3_tip:"（众售结束后两周发行代币）",
     render(){
 
         return(

@@ -92,6 +92,12 @@
 .banner{
     height: 100%;
     width: 100%;
+    background-size: cover;
+    position: relative;
+}
+#lawbanner{
+    height: 100%;
+    width: 100%;
     background: url("/public/img/lawbg.jpg")  no-repeat center;
     background-size: cover;
     position: relative;
