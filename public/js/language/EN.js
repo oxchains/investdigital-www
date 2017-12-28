@@ -8,6 +8,7 @@ const EN = {
     change_to_lang: "/?lang=CN",
     nav_whitepaper_url: "https://investdigital.info/public/InvestDigital_Whitepaper_CN.pdf",
     nav_github_url: "https://github.com/investdigital",
+    law_to_lang: "?lang=EN",
 
     www_title: "One-stop investment platform for cryptocurrencies.",
 
@@ -205,5 +206,61 @@ const EN = {
     investor_QUE: "QUESCHAIN",
 
     partner_title: "InvestDigital Partners",
+
+    //footer
+    footer_title2:"Legal Provisions and Declarations",
+
+    //法律结构
+    law_structure_title1:"Legal Structure of InvestDigital",
+    law_structure_title2:"Legal structure",
+    law_structure_content1:"The InvestDigital Team will sell IDC based on the InvestDigital platform, in the form of private sale and crowdsale. IDC is the settlement unit and service fee for InvestDigital platform and will not be refunded or repurchased once it is sold. Nobody will be responsible to repurchase or redeem any sold IDC. IDC, as a kind of virtual commodity that corresponds to the InvestDigital platform's service permissions, are not securities, nor speculative investment instruments. ",
+    law_structure_content2:"IDC as a virtual product, the typical target users of IDC are veterans in crypto-tokens and blockchain, technology developers, and geeks. Any China citizens, US citizens, Singapore citizens, permanent residents, or green card holders of these three countries are not allowed to participate in the IDC crowdsale. ",
+    law_structure_content3:"Revenue from the sale of IDC will be used by the InvestDigital Team at its own discretion, primarily for technical development, marketing, legal compliance, financial audits, business partnerships and more.",
+    law_structure_content4:"InvestDigital neither has any physical presence nor is associated with the territory or fiat currency of any country or region. In order to satisfy and comply with the local laws and regulations, the InvestDigital platform may be unable to provide full services in certain jurisdictions. The InvestDigital Team will endeavor to seek “sandbox policy” or safe harbor treatment to provide users with the service as friendly as possible.",
+
+    //免责声明
+    law_section_title:"Disclaimer",
+    law_section_content1:"The only use of this whitepaper is to convey information, and does not constitute any form of investment advice, investment intention or investment abetment. This whitepaper is neither composed nor understandable as any behaviors of trading and transaction invitation or any forms of security. This document is not any form of contract or commitment, and does not constitute any guarantee of user participation in the results.",
+    law_section_content2:"The InvestDigital Team does not make, and hereby disclaims, any representation or warranty with respect to InvestDigital or IDC (especially with regard to its merchantability and the particular functionality), except those expressly stated in this whitepaper. InvestDigital makes it clear that the relevant user has a clear understanding of and accepts the risk of the project and that all participants will accept IDC on an “as is” basis, after the startup of the InvestDigital project, regardless of their technical specifications, parameters, performance or features, etc. Each purchaser decided to participate in the IDC crowdsale and to purchase any IDC must be willing to personally undertake all appropriate results for this purpose or consequences. ",
+    law_section_content3:"The InvestDigital team specifically disclaims and refuses to accept the responsibilities as follows. ",
+    law_section_content4:"1.Any person’s purchase of IDC in violation of any anti-money laundering, counter-terrorism financing or other regulatory requirements that are imposed in any jurisdiction.",
+    law_section_content5:"2.Any person’s purchase of IDC in violation of any representations, warranties, obligations, undertaking or other requirements under this Whitepaper, and the resulting failure or inability to make his/her payment or to claim relevant purchased IDC.",
+    law_section_content6:"3.IDC is prohibited, supervised or legally restricted by any government, quasi-governmental agency, competent authority or public body, or is unable to provide normal service due to regulatory factors.",
+    law_section_content7:"4.Failure or abortion of InvestDigital development and resulting failure to deliver IDC. ",
+    law_section_content8:"5.InvestDigital's source code error, flaws, defects or other problems, resulting in the platform can not be delivered or deferred.  ",
+    law_section_content9:"6.Any malfunction, breakdown, collapse, rollback or hardforking of InvestDigital or the blockchain of Ethereum and EOS. ",
+    law_section_content10:"7.The management and use of the raised digital assets by InvestDigital platform.",
+    law_section_content11:"8.Agreements between any organization or individual has differences, conflict or contradiction with this white paper.",
+    law_section_content12:"9.Listing or delisting of IDC on or from any exchange.",
+    law_section_content13:"10.Any risk factors disclosed in this Whitepaper and any damage, loss, claim, liability, punishment, cost or other adverse impact that is caused by, associated with, in connection with, incidental to or consequential to that risk factor. ",
+
+    //风险声明
+    risk_section_title:"Risk Factors",
+    risk_section_abstract:"Blockchain technology is an innovative technology. As a new model of digital assets, the development, operation and promotion of InvestDigital project will inevitably encounter such problems as technology, market cognition, policy supervision and many other unpredictable risks. Both InvestDigital and IDC are only present within the cyber virtual space, do not have any physical existence, and therefore do not belong to or relate to any particular country. In addition to the rest of the content described in this whitepaper, each IDC purchaser should also read, understand and carefully consider the following risks described below before deciding whether to participate in this open sale plan. Participation in this open sale plan should be a decision after careful consideration and will be deemed to have been fully understood and agreed to by the purchaser with the risk described below.",
+    risk_section_title1:"1.Token Sales Market Risk",
+    risk_section_content1:"The IDC open sale plan may be terminated early because the Token sales market environment is closely linked to the entire digital currency market situation, such as the overall market downturn, or other uncontrollable factors. At this point, the purchaser may only partially be refunded the amount paid due to the price volatility of  Ether and the expenses of the InvestDigital Team.",
+    risk_section_title2:"2.Insufficient Information Availability",
+    risk_section_content2:"When the whitepaper releases, InvestDigital is still at the stage of development, of which philosophy, consensus mechanisms, algorithms, code and other technical details and parameters may be updated and changed frequently and constantly. While this whitepaper has contained the most up-to-date key information of InvestDigital, it is not absolutely complete and will still be continually adjusted and updated by the InvestDigital team for specific purposes. Besides, it is unnecessary to provide the purchasers with every detail of InvestDigital development, including its progress and expected milestones no matter whether rescheduled or not. It is inevitable and reasonable that the information disclosure is not enough. ",
+    risk_section_title3:"3.Regulatory Risks",
+    risk_section_content3:"Because the blockchain is in the stage of development, there are still no unified laws and regulations related to the token crowd sale process, including prerequirements, transaction requirements, information disclosure requirements and file locking requirements. The blockchain technology and the crypto-tokens are being, or may be, overseen by the regulatory authorities of various jurisdictions. If some regulatory authorities intervene or exert influence on the project, the InvestDigital Team may receive queries, notices, warnings, requests or rulings from one or more regulatory authorities from time to time, or may even be ordered to suspend or discontinue any action in connection with the Campaign, InvestDigital’s development or IDC. The development, marketing, promotion or otherwise of InvestDigital or the IDC crowdsale campaign may be seriously affected, hindered or terminated as a result. And since regulatory policies could change from time to time, existing regulatory permission or tolerance on InvestDigital or the IDC crowdsale campaign in any jurisdiction could be just temporary. IDC could be defined from time to time as virtual commodity, digital asset or even securities or currency in various jurisdictions and therefore could be prohibited from being traded or held in certain jurisdictions pursuant to local regulatory requirements.",
+    risk_section_title4:"4.Development Failure or Abortion",
+    risk_section_content4:"InvestDigital is still under development, rather than a finished product ready for release at any time. Due to the technical complexity of the InvestDigital system, the InvestDigital Team may face with unforeseeable and/or insurmountable difficulties from time to time. Accordingly, the development of InvestDigital may fail or abort at any time for any cause (including lack of funds). Failure to develop or abandon the project would result in the inability to deliver the IDC to any purchaser of this Crowdsale.",
+    risk_section_title5:"5.Theft of Crowdsale Proceeds",
+    risk_section_content5:"There may be attempts to steal the crowdsale proceeds received by the InvestDigital Team (including the fiat currency amount converted therefrom). Such theft or attempted theft may affect the ability of the InvestDigital Team to fund the development of InvestDigital. While the InvestDigital Team will adopt cutting-edge technical solutions to keep the crowdsale proceeds safe, certain cyber thefts can hardly be unpreventable.",
+    risk_section_title6:" 6.Flaws in Source Code",
+    risk_section_content6:"Because development on the blockchain is a challenging groundbreaking project, nobody can guarantee that the source code of InvestDigital is flaw-free. It may contain some flaws, errors, defects and bugs, which may it impossible for users to use some specific, expose the users’ information or cause other problems. If any such flaws arise, it will damage the availability, stability and security of InvestDigital, and consequently will bring a negative impact on the value of IDC. Open source codes rely on transparency to promote community-sourced identification and solution of problems within the code. The InvestDigital Team will work closely together with the InvestDigital community to keep improving, optimizing and perfecting the source code of InvestDigital onwards.",
+    risk_section_title7:"7.Risks of the Core Agreements",
+    risk_section_content7:"InvestDigital program is based on blockchain bottom protocols, and IDC is developed based on ETH Token Stardard ERC20. If the bottom protocol of blockchain is subjected to some unpredictable functional issues or being attacked, it may cause the InvestDigital platform and IDC to stop working or cause loss of functionality in an unexpected way.",
+    risk_section_title8:"8.System Risks",
+    risk_section_content8:"The system risks refer to the negligible fatal flaws in open source software and the risks posed by large-scale failures of the global network infrastructures. Although some of these risks will be substantially reduced over time, such as by repairing vulnerabilities and breaking computational bottlenecks, other parts of the risks remain unpredictable, such as political factors or natural disasters that could lead to partial or global disruption of the Internet.",
+    risk_section_title9:"9.Vulnerability or Cryptographic Risks",
+    risk_section_content9:"The accelerated development of cryptography or technology, such as the development of quantum computers, might bring new risks to the InvestDigital platform, which may lead to the loss of IDC.",
+    risk_section_title10:"10.Failure Risk of Applications",
+    risk_section_content10:"InvestDigital platform might not be able to provide services by variety of known or unknown reasons, e.g., large-scale of nodes down, and this might cause the loss of IDC in severe cases.",
+    risk_section_title11:"11.Product or Application Can’t Reach the Expect of Self or Participants",
+    risk_section_content11:"InvestDigital program is currently under development, and there may be some major changes before the release of the official version. Any expectation or imagination of any participant in the function or form of InvestDigital application or IDC (including participant's behaviors) may not be met. Any kind of incorrect analysis or alteration of design might make this kind of things happen.",
+    risk_section_title12:"12.Other Unexpected Risks",
+    risk_section_content12:"Cryptographic Token is a completely new and untested technology, possibly suffering from some risks. Aside from those mentioned in this whitepaper, there are some risks that some founding teams have not mentioned or have not anticipated yet. Besides, other risks may also appear suddenly, or in a combination of several of the risks already mentioned, adding new unpredictable challenges to the research and development of Cryptographic Token. ",
+
 };
 window.EN = EN;

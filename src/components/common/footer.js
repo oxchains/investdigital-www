@@ -1,7 +1,7 @@
 import React,{ Component }from 'react';
 import {Link} from 'react-router-dom';
 import {ROOT_URL} from '../../actions/types';
-
+import {getLocalValue} from './language';
 class Footer extends Component{
     render(){
         return(
@@ -35,6 +35,8 @@ class Footer extends Component{
                             <div style={{width: "50%", display: "inline-block", textAlign: "left", paddingLeft: "6%"}}>
                                 <img src="/public/img/id_wechat.jpg" style={{width: "110px", marginLeft: "3%"}}/><br/>
                                 InvestDigital微信公众号</div>
+                            <small className="g-font-size-default ">
+                                <Link className="g-color-white " to={`/law${getLocalValue("law_to_lang")}`}>{getLocalValue("footer_title2")}</Link></small>
                         </div>
                     </div>
                 </footer>

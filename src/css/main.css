@@ -92,7 +92,7 @@
 .banner{
     height: 100%;
     width: 100%;
-    background: url("/public/img/banner.png")  no-repeat center;
+    background: url("/public/img/lawbg.jpg")  no-repeat center;
     background-size: cover;
     position: relative;
 }
@@ -623,4 +623,22 @@
 
 @media  {
 
+}
+
+/*法律部分*/
+.g-law-width
+{
+    width: 300px;
+    font-size: 22px;
+    border-bottom: 2px solid #ffa200;
+}
+.lawcenter
+{
+    display: flex;
+    justify-content:center;
+    align-content: center;
+}
+.en-title
+{
+    margin-bottom: 1.5rem;
 }
