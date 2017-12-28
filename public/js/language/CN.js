@@ -106,6 +106,7 @@ const CN = {
     news_section4_content:"孟宏伟博士应邀为深圳市区块链协会与深圳市防伪协会授课。",
 
     crowd_funding_title:"众售说明",
+    crowd_funding_title_tip:"在使用网站服务和参与众售活动之前，请您务必仔细阅读并透彻理解法律条款和声明。本法律声明阐述之条款和条件适用于所有访问和使用网站的自然人、法人及组织。当您选择使用网站服务和参与众售活动后，您的使用行为将被视为对法律条款和声明全部内容的认可。",
     crowd_funding_section1_name1:"项目名称:",
     crowd_funding_section1_item1:"InvestDigital",
     crowd_funding_section1_name2:"众售时间:",

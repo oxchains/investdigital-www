@@ -100,6 +100,7 @@ const EN = {
     news_section4_content:"孟宏伟博士应邀为深圳市区块链协会与深圳市防伪协会授课。",
 
     crowd_funding_title:"Crowd Sale Instruction",
+    crowd_funding_title_tip:"Before using the Website Services and participating in any of our sales activities, please be sure to read and thoroughly understand the legal terms and conditions. The terms and conditions set forth in this Legal Notice apply to all natural, legal persons and organizations that access and use the Site. Your use of the Website will be considered as an endorsement of the entire contents of the Legal Terms and Conditions when you elect to use the Website Services and participate in any of the Sale Activities.",
     crowd_funding_section1_name1:"Project Name:",
     crowd_funding_section1_item1:"InvestDigital",
     crowd_funding_section1_name2:"Start Time:",

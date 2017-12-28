@@ -25,6 +25,7 @@ class CrowdFunding extends Component{
                     <div className="nl-underline g-mb-15">
                         <span className="nl-style"></span>
                     </div>
+                    <div className="g-color-white text-center g-font-size-12 g-mb-20" style={{maxWidth:"890px",margin:"auto"}}>{getLocalValue("crowd_funding_title_tip")}</div>
                 </div>
 
                 <div className="container">
