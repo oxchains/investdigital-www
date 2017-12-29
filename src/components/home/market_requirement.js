@@ -55,7 +55,7 @@ class MarketRequirement extends Component{
         }
         for (let i = 1; i <=3; i++) {
             listinfo3.push({
-                src:`${ROOT_URL}public/img/market${i}.png`,
+                src:`${ROOT_URL}/public/img/market${i}.png`,
                 content:getLocalValue("market_requirement_center" + i),
             });
         }
@@ -73,12 +73,14 @@ class MarketRequirement extends Component{
                         <div className="row clearfix text-center">
                             <div className="col-sm-12 g-font-size-16">
                                 <div className="col-sm-12 col-md-6 float-left">
-                                    <img className="g-height-70 g-mb-5"  src="/public/img/role1.png" alt=""/>
+
+                                    <img className="g-height-70 g-mb-5"  src={`${ROOT_URL}/public/img/role1.png`} alt=""/>
                                     <div className="role-name1">{getLocalValue("market_requirement_role1")}</div>
                                     <p className="text-center g-my-20 g-pa-20 role-des g-font-size-14">{getLocalValue("market_requirement_role1_des")}</p>
                                 </div>
                                 <div className="col-sm-12 col-md-6 float-left">
-                                    <img className="g-height-70 g-mb-5"  src="/public/img/role2.png" alt=""/>
+
+                                    <img className="g-height-70 g-mb-5"  src={`${ROOT_URL}/public/img/role2.png`} alt=""/>
                                     <div className="role-name2">{getLocalValue("market_requirement_role2")}</div>
                                     <p className="text-center g-my-20 g-pa-20 role-des g-font-size-14">{getLocalValue("market_requirement_role2_des")}</p>
                                 </div>

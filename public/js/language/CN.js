@@ -1,3 +1,4 @@
+import {ROOT_URL} from '../../../src/actions/types';
 const CN = {
     nav_home: "首页",
     nav_crowd:"众售",
@@ -151,7 +152,7 @@ const CN = {
 
 
     circuit_title: "线路图",
-    circuit_img: "/public/img/circuit_cn.jpg",
+    circuit_img: `${ROOT_URL}/public/img/circuit_cn.jpg`,
     circuit_section1_info: "The DAO 遭攻击",
     circuit_section2_info: "形式化验证工具开发",
     circuit_section3_info: "InvestDigital构思",

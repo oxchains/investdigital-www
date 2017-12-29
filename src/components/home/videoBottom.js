@@ -3,6 +3,7 @@
  */
 import React,{ Component }from 'react';
 import {connect} from 'react-redux';
+import {ROOT_URL} from '../../actions/types';
 import {getLocalValue} from '../common/language';
 
 class VideoBottom extends Component{
@@ -29,8 +30,8 @@ class VideoBottom extends Component{
             <div className="container px-0 navP" >
                 <div className="row">
                     <div className="col-sm-6 col-lg-6 pict">
-                        <video classID={"example_video_1"} className={"video-js vjs-default-skin vjs-big-play-centered"} width="165" controls preload="auto" poster="/public/img/1513154766.mp4" src="/public/img/1513154766.mp4" data-setup="{example_option:true}" >
-                            <source src="/public/img/1513154766.mp4" type="video/mp4" />
+                        <video classID={"example_video_1"} className={"video-js vjs-default-skin vjs-big-play-centered"} width="165" controls preload="auto" poster={`${ROOT_URL}/public/img/1513154766.mp4`} src={`${ROOT_URL}/public/img/1513154766.mp4`} data-setup="{example_option:true}" >
+                            <source src={`${ROOT_URL}/public/img/1513154766.mp4`} type="video/mp4" />
                         </video>
                     </div>
                     <div className="col-sm-6 col-lg-6 det" style={{paddingRight:50}}>

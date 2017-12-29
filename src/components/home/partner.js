@@ -2,6 +2,7 @@
  * Created by zhanxiaojing on 2017/12/09.
  */
 import React,{ Component }from 'react';
+import {ROOT_URL} from '../../actions/types';
 import {getLocalValue} from '../common/language';
 
 class Partner extends Component{
@@ -34,19 +35,20 @@ class Partner extends Component{
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-3 col-sm-12 text-center g-py-10">
-                            <img style={{margin:"auto"}} src="/public/img/partner-1.jpg" alt="1"/>
+
+                            <img style={{margin:"auto"}} src={`${ROOT_URL}/public/img/partner-1.jpg`} alt="1"/>
                         </div>
                         <div className="col-lg-3 col-sm-12 text-center g-py-10">
-                            <img style={{margin:"auto"}} src="/public/img/partner-2.jpg" alt="2"/>
+                            <img style={{margin:"auto"}} src={`${ROOT_URL}/public/img/partner-2.jpg`} alt="2"/>
                         </div>
                         <div className="col-lg-3 col-sm-12 text-center g-py-10">
-                            <img style={{margin:"auto"}} src="/public/img/partner-3.jpg" alt="3"/>
+                            <img style={{margin:"auto"}} src={`${ROOT_URL}/public/img/partner-3.jpg`} alt="3"/>
                         </div>
                         <div className="col-lg-3 col-sm-12 text-center g-py-10">
-                            <img style={{margin:"auto"}} src="/public/img/partner-4.jpg" alt="4"/>
+                            <img style={{margin:"auto"}} src={`${ROOT_URL}/public/img/partner-4.jpg`} alt="4"/>
                         </div>
                         <div className="col-lg-3 col-sm-12 text-center g-py-10">
-                            <img style={{margin:"auto"}} src="/public/img/partner-5.jpg" alt="5"/>
+                            <img style={{margin:"auto"}} src={`${ROOT_URL}/public/img/partner-5.jpg`} alt="5"/>
                         </div>
                     </div>
                 </div>

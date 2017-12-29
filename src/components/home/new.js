@@ -3,6 +3,7 @@
  */
 import React,{ Component }from 'react';
 import {getLocalValue} from '../common/language';
+import {ROOT_URL} from '../../actions/types';
 
 class New extends Component{
     constructor(props) {
@@ -56,13 +57,14 @@ class New extends Component{
                                         </ul>
                                     </div>
                                 </div>
-                                <div className="col-md-6 g-bg-size-cover g-bg-pos-center g-min-height-300 g-rounded-right-5" data-bg-img-src="/public/img/new1.jpg"></div>
+                                <div className="col-md-6 g-bg-size-cover g-bg-pos-center g-min-height-300 g-rounded-right-5" data-bg-img-src={`${ROOT_URL}/public/img/new1.jpg`}></div>
                             </article>
                         </div>
 
                         <div className="masonry-grid-item col-sm-6 col-lg-4 g-mb-20">
                             <article className="u-shadow-v21 u-shadow-v21--hover g-transition-0_3">
-                                <img className="img-fluid w-100 g-rounded-top-5" src="/public/img/new2.jpg" alt="Image Description"/>
+
+                                <img className="img-fluid w-100 g-rounded-top-5" src={`${ROOT_URL}/public/img/new2.jpg`} alt="Image Description"/>
                                     <div className="n-bg-white g-pa-30 g-rounded-bottom-5">
                                         <ul className="list-inline g-color-gray-dark-v4 g-font-weight-600 g-font-size-12">
                                             <li className="list-inline-item mr-0">{getLocalValue("news_section2_time1")}</li>
@@ -85,7 +87,8 @@ class New extends Component{
 
                         <div className="masonry-grid-item col-sm-6 col-lg-4 g-mb-20">
                             <article className="u-shadow-v21 u-shadow-v21--hover g-transition-0_3">
-                                <img className="img-fluid w-100 g-rounded-top-5" src="/public/img/new3.jpg" alt="Image Description"/>
+
+                                <img className="img-fluid w-100 g-rounded-top-5" src={`${ROOT_URL}/public/img/new3.jpg`} alt="Image Description"/>
                                     <div className="n-bg-white g-pa-30 g-rounded-bottom-5">
                                         <ul className="list-inline g-color-gray-dark-v4 g-font-weight-600 g-font-size-12">
                                             <li className="list-inline-item mr-0">{getLocalValue("news_section3_time1")}</li>
@@ -134,7 +137,7 @@ class New extends Component{
                                         </ul>
                                     </div>
                                 </div>
-                                <div className="col-md-6 g-bg-size-cover g-bg-pos-center g-min-height-300 g-rounded-right-5" data-bg-img-src="/public/img/new4.jpg"></div>
+                                <div className="col-md-6 g-bg-size-cover g-bg-pos-center g-min-height-300 g-rounded-right-5" data-bg-img-src={`${ROOT_URL}/public/img/new4.jpg`}></div>
                             </article>
                         </div>
                     </div>

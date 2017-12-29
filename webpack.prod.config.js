@@ -10,7 +10,7 @@ module.exports = Merge(common,{
         new HtmlWebpackPlugin({
             title: "数字货币一站式投资服务平台",
             template: path.join(__dirname, 'index.ejs'),
-            publicPath: 'https://investdigital.info/',
+            publicPath: 'https://static-cdn.oxchains.com/investdigital-www/',
             filename: 'index.html',
             inject: 'body',
             minify: {
@@ -24,7 +24,6 @@ module.exports = Merge(common,{
             'process.env': {NODE_ENV: '"production"'}
         })
     ],
-    devtool: 'source-map',
     devServer: {
         historyApiFallback: true,
         contentBase: './',

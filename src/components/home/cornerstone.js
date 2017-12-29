@@ -1,6 +1,7 @@
 import React,{ Component }from 'react';
 import {ROOT_URL} from '../../actions/types';
 import {getLocalValue} from '../common/language';
+import LazyLoad from 'react-lazyload';
 
 class Cornerstone extends Component{
     renderrow(item,index){
@@ -24,13 +25,13 @@ class Cornerstone extends Component{
     render(){
         const consultantlist = [
             {
-                src:`${ROOT_URL}public/img/zenglinchuan.jpg`,
+                src:`${ROOT_URL}/public/img/zenglinchuan.jpg`,
                 name:getLocalValue("cornerstone_section1_name"),
                 desc:getLocalValue("cornerstone_section1_desc"),
                 info:getLocalValue("cornerstone_section1_info")
             },
             {
-                src: `${ROOT_URL}public/img/jizhoudong.jpg`,
+                src: `${ROOT_URL}/public/img/jizhoudong.jpg`,
                 name: getLocalValue("cornerstone_section2_name"),
                 desc: getLocalValue("cornerstone_section2_desc"),
                 info: getLocalValue("cornerstone_section2_info")

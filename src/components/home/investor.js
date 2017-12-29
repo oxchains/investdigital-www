@@ -3,6 +3,8 @@
  */
 import React,{ Component }from 'react';
 import {getLocalValue} from '../common/language';
+import {ROOT_URL} from '../../actions/types';
+import LazyLoad from 'react-lazyload';
 
 class Investor extends Component{
     constructor(props) {
@@ -34,19 +36,19 @@ class Investor extends Component{
                 <div className="container">
                     <div className="row">
                         <div className=" col-sm-12 col-lg-3 g-py-20 text-center">
-                            <img style={{margin:"auto"}} src="/public/img/investor1.jpg" alt="1"/>
+                            <img style={{margin:"auto"}} src={`${ROOT_URL}/public/img/investor1.jpg`} alt="1"/>
                             <p className="g-pt-20  g-font-weight-400 g-font-size-18">{getLocalValue("investor_inB")}</p>
                         </div>
                         <div className="col-sm-12 col-lg-3 g-py-20 text-center">
-                            <img style={{margin:"auto"}} src="/public/img/investor1-1.jpg" alt="2"/>
+                            <img style={{margin:"auto"}} src={`${ROOT_URL}/public/img/investor1-1.jpg`} alt="2"/>
                             <p className="g-pt-20 g-font-weight-400 g-font-size-18">{getLocalValue("investor_Bix")}</p>
                         </div>
                         <div className="ol-sm-12 col-lg-3 g-py-20 text-center">
-                            <img style={{margin:"auto"}} src="/public/img/investor1-2.jpg" alt="3"/>
+                            <img style={{margin:"auto"}} src={`${ROOT_URL}/public/img/investor1-2.jpg`} alt="3"/>
                             <p className="g-pt-20 g-font-weight-400 g-font-size-18">{getLocalValue("investor_Sap")}</p>
                         </div>
                         <div className="col-sm-12 col-lg-3 g-py-20 text-center">
-                            <img style={{margin:"auto"}} src="/public/img/investor1-3.jpg" alt="4"/>
+                            <img style={{margin:"auto"}} src={`${ROOT_URL}/public/img/investor1-3.jpg`} alt="4"/>
                             <p className="g-pt-20 g-font-weight-400 g-font-size-18">{getLocalValue("investor_QUE")}</p>
                         </div>
                     </div>

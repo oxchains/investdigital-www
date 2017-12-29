@@ -4,6 +4,7 @@
 import React,{ Component }from 'react';
 import {ROOT_URL} from '../../actions/types';
 import {getLocalValue} from '../common/language';
+import LazyLoad from 'react-lazyload';
 
 class Consultant extends Component{
     renderrow(item,index){
@@ -21,9 +22,9 @@ class Consultant extends Component{
     }
     render(){
         const consultantlist = [
-            {src:`${ROOT_URL}public/img/OracleChain.png`,name:getLocalValue("ourteam_section1_name"),info:getLocalValue("ourteam_section1_desc")},
-            {src:`${ROOT_URL}public/img/Ennan Zhai.png`,name:getLocalValue("ourteam_section2_name"),info:getLocalValue("ourteam_section2_desc")},
-            {src:`${ROOT_URL}public/img/chenyu.png`,name:getLocalValue("ourteam_section4_name"),info:getLocalValue("ourteam_section4_desc")}
+            {src:`${ROOT_URL}/public/img/OracleChain.png`,name:getLocalValue("ourteam_section1_name"),info:getLocalValue("ourteam_section1_desc")},
+            {src:`${ROOT_URL}/public/img/Ennan Zhai.png`,name:getLocalValue("ourteam_section2_name"),info:getLocalValue("ourteam_section2_desc")},
+            {src:`${ROOT_URL}/public/img/chenyu.png`,name:getLocalValue("ourteam_section4_name"),info:getLocalValue("ourteam_section4_desc")}
         ]
         return(
             <section className="g-py-50 g-pb-100">

@@ -38,7 +38,7 @@ class Product extends Component{
         for (let i = 1; i <=6; i++) {
             productItem.push(
                 {title:getLocalValue("product_section" + i + "_title"),
-                    src:`${ROOT_URL}public/img/product${i}.png`,
+                    src:`${ROOT_URL}/public/img/product${i}.png`,
                     content:getLocalValue("product_section" + i + "_content")})
         }
         return(

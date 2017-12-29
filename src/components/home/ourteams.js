@@ -35,62 +35,62 @@ class Ourteams extends Component {
     render() {
         const imgLinks = [
             {
-                src: `${ROOT_URL}public/img/Daniele Bernardi.png`,
+                src: `${ROOT_URL}/public/img/Daniele Bernardi.png`,
                 name: getLocalValue("team_section1_name"),
                 info: getLocalValue("team_section1_desc")
             },
             {
-                src: `${ROOT_URL}public/img/Hugo Gong.png`,
+                src: `${ROOT_URL}/public/img/Hugo Gong.png`,
                 name: getLocalValue("team_section2_name"),
                 info: getLocalValue("team_section2_desc")
             },
             {
-                src: `${ROOT_URL}public/img/Riaz Ahmad.png`,
+                src: `${ROOT_URL}/public/img/Riaz Ahmad.png`,
                 name: getLocalValue("team_section3_name"),
                 info: getLocalValue("team_section3_desc")
             },
             {
-                src: `${ROOT_URL}public/img/zhaohui.jpg`,
+                src: `${ROOT_URL}/public/img/zhaohui.jpg`,
                 name: getLocalValue("team_section4_name"),
                 info: getLocalValue("team_section4_desc")
             },
             {
-                src: `${ROOT_URL}public/img/zhangli.png`,
+                src: `${ROOT_URL}/public/img/zhangli.png`,
                 name: getLocalValue("team_section5_name"),
                 info: getLocalValue("team_section5_desc")
             },
             {
-                src: `${ROOT_URL}public/img/wangqianfeng.png`,
+                src: `${ROOT_URL}/public/img/wangqianfeng.png`,
                 name: getLocalValue("team_section6_name"),
                 info: getLocalValue("team_section6_desc")
             },
             {
 
-                src: `${ROOT_URL}public/img/zhangpeiyu.png`,
+                src: `${ROOT_URL}/public/img/zhangpeiyu.png`,
                 name: getLocalValue("team_section7_name"),
                 info: getLocalValue("team_section7_desc")
             },
             {
 
-                src: `${ROOT_URL}public/img/huchengjian.png`,
+                src: `${ROOT_URL}/public/img/huchengjian.png`,
                 name: getLocalValue("team_section8_name"),
                 info: getLocalValue("team_section8_desc")
             },
             {
 
-                src: `${ROOT_URL}public/img/tangcong.png`,
+                src: `${ROOT_URL}/public/img/tangcong.png`,
                 name: getLocalValue("team_section9_name"),
                 info: getLocalValue("team_section9_desc")
             },
             {
 
-                src: `${ROOT_URL}public/img/menghongwei.png`,
+                src: `${ROOT_URL}/public/img/menghongwei.png`,
                 name: getLocalValue("team_section10_name"),
                 info: getLocalValue("team_section10_desc")
             },
             {
 
-                src: `${ROOT_URL}public/img/liuhan.png`,
+                src: `${ROOT_URL}/public/img/liuhan.png`,
                 name: getLocalValue("team_section11_name"),
                 info: getLocalValue("team_section11_desc")
             },

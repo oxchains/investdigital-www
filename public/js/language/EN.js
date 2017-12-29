@@ -1,3 +1,4 @@
+import {ROOT_URL} from '../../../src/actions/types';
 const EN = {
     nav_home: "HomePage",
     nav_crowd:"Crowd Sale",
@@ -143,7 +144,7 @@ const EN = {
 
 
     circuit_title: "RoadMap",
-    circuit_img: "/public/img/circuit_en.jpg",
+    circuit_img: `${ROOT_URL}/public/img/circuit_en.jpg`,
     circuit_section1_info: "'The DAO' was attacked",
     circuit_section2_info: "Developed formal verification tools",
     circuit_section3_info: "Conception of InvestDigital",

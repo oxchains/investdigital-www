@@ -23,7 +23,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, "./dist"),
         filename: "[name].[chunkhash:8].js",
-        publicPath: prod ? "https://investdigital.info/" : ""
+        publicPath: prod ? "https://static-cdn.oxchains.com/investdigital-www/" : ""
     },
     module: {
         loaders: [{

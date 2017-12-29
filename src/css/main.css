@@ -623,7 +623,7 @@
     background: linear-gradient( left,#2f97ff,#62d2fe);
     background: -webkit-linear-gradient( left,#2f97ff,#62d2fe);
     border-radius: 10px;
-    z-index: 999;
+    z-index: 99;
     box-shadow: 1px 1px 14px  #62d2fe;
 }
 
