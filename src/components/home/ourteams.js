@@ -88,12 +88,12 @@ class Ourteams extends Component {
                 name: getLocalValue("team_section10_name"),
                 info: getLocalValue("team_section10_desc")
             },
-            {
-
-                src: `${ROOT_URL}/public/img/liuhan.png`,
-                name: getLocalValue("team_section11_name"),
-                info: getLocalValue("team_section11_desc")
-            },
+            // {
+            //
+            //     src: `${ROOT_URL}/public/img/liuhan.png`,
+            //     name: getLocalValue("team_section11_name"),
+            //     info: getLocalValue("team_section11_desc")
+            // },
         ]
         return (
             <div className="ourteam" id="ourteam" name="ourteam">
