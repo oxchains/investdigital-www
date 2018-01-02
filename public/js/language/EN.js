@@ -17,7 +17,7 @@ const EN = {
     notice_one: "Hello everyone!",
     notice_two: "Thank you for your continued attention to Project InvestDigital",
     notice_three: "First off, we would like to say thank you to everyone who has supported the project in one way or another." +
-    "Token Private sale of InvestDigital has enjoyed tremendous support from institutional investors. As of today, InvestDigital token crowd sale has reached the hard cap and come to an end. The next step is IDC token distribution, and shall be completed within 2 weeks. For the exact terms and conditions of our token sale and distribution, including jurisdiction restrictions and relevant risks, please refer to our announcement and Legal Terms and Conditions published on our website.\n" +
+    "Token crowd sale of InvestDigital has enjoyed tremendous support from institutional investors. As of today, InvestDigital token crowd sale has reached the hard cap and come to an end. The next step is IDC token distribution, and shall be completed within 2 weeks. For the exact terms and conditions of our token sale and distribution, including jurisdiction restrictions and relevant risks, please refer to our announcement and Legal Terms and Conditions published on our website.\n" +
     "Thanks for your support, we warmly welcome everyone to join InvestDigital community. We will live up to expectations and work together to create a better ecological environment for digital currency investment.",
     notice_four: "Wish you a Happy New Year!",
     notice_author: "InvestDigital team",
