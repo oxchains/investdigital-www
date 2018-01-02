@@ -58,7 +58,7 @@ class CrowdFunding extends Component{
                             <div className="crowd-desc">
                                 {getLocalValue("crowd_funding_desc")}
                             </div>
-                            <button className="crowd-btn" onClick={this.showBannerNotice.bind(this)}>关于InvestDigital项目进展的公告</button>
+                            <button className="crowd-btn" onClick={this.showBannerNotice.bind(this)}>{getLocalValue("crowd_funding_btn")}</button>
                         </div>
                     </div>
                 </div>
