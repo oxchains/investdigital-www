@@ -4,6 +4,7 @@
 import React,{ Component }from 'react';
 import {ROOT_URL} from '../../actions/types';
 import {getLocalValue} from '../common/language';
+import LazyLoad from 'react-lazy-load';
 
 class Partner extends Component{
     constructor(props) {
@@ -35,20 +36,29 @@ class Partner extends Component{
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-3 col-sm-12 text-center g-py-10">
-
-                            <img style={{margin:"auto"}} src={`${ROOT_URL}/public/img/partner-1.jpg`} alt="1"/>
+                            <LazyLoad width={"100%"}>
+                                <img style={{margin:"0 auto"}} src={`${ROOT_URL}/public/img/partner-1.jpg`} alt="1"/>
+                            </LazyLoad>
                         </div>
                         <div className="col-lg-3 col-sm-12 text-center g-py-10">
-                            <img style={{margin:"auto"}} src={`${ROOT_URL}/public/img/partner-2.jpg`} alt="2"/>
+                            <LazyLoad width={"100%"}>
+                                <img style={{margin:"auto"}} src={`${ROOT_URL}/public/img/partner-2.jpg`} alt="2"/>
+                            </LazyLoad>
                         </div>
                         <div className="col-lg-3 col-sm-12 text-center g-py-10">
-                            <img style={{margin:"auto"}} src={`${ROOT_URL}/public/img/partner-3.jpg`} alt="3"/>
+                            <LazyLoad width={"100%"}>
+                                <img style={{margin:"auto"}} src={`${ROOT_URL}/public/img/partner-3.jpg`} alt="3"/>
+                            </LazyLoad>
                         </div>
                         <div className="col-lg-3 col-sm-12 text-center g-py-10">
-                            <img style={{margin:"auto"}} src={`${ROOT_URL}/public/img/partner-4.jpg`} alt="4"/>
+                            <LazyLoad width={"100%"}>
+                                <img style={{margin:"auto"}} src={`${ROOT_URL}/public/img/partner-4.jpg`} alt="4"/>
+                            </LazyLoad>
                         </div>
                         <div className="col-lg-3 col-sm-12 text-center g-py-10">
-                            <img style={{margin:"auto"}} src={`${ROOT_URL}/public/img/partner-5.jpg`} alt="5"/>
+                            <LazyLoad width={"100%"}>
+                                <img style={{margin:"auto"}} src={`${ROOT_URL}/public/img/partner-5.jpg`} alt="5"/>
+                            </LazyLoad>
                         </div>
                     </div>
                 </div>

@@ -4,14 +4,16 @@
 import React,{ Component }from 'react';
 import {ROOT_URL} from '../../actions/types';
 import {getLocalValue} from '../common/language';
-
+import LazyLoad from 'react-lazy-load';
 class Technology extends Component{
     renderrow(item,index){
         return (
             <div className="col-sm-6 col-lg-3 application-item" key={index}>
                 <article className="u-block-hover">
                     <figure className="g-overflow-hidden">
-                        <img className="img-fluid u-block-hover__main--zoom-v1" src={item.src} alt=""/>
+                        <LazyLoad height={"100%"} width={"100%"}>
+                            <img className="img-fluid u-block-hover__main--zoom-v1" src={item.src} alt=""/>
+                        </LazyLoad>
                     </figure>
                     <div className=" g-pa-20">
                         <h3 className="text-uppercase g-font-weight-700 g-font-size-14 text-center">{item.title}</h3>
@@ -51,7 +53,9 @@ class Technology extends Component{
                         <div className="col-sm-6 col-lg-3 application-item">
                             <article className="u-block-hover">
                                 <figure className="g-overflow-hidden">
-                                    <img className="img-fluid u-block-hover__main--zoom-v1" src={`${ROOT_URL}/public/img/technology1.png`} alt=""/>
+                                    <LazyLoad height={"100%"} width={"100%"}>
+                                        <img className="img-fluid u-block-hover__main--zoom-v1" src={`${ROOT_URL}/public/img/technology1.png`} alt=""/>
+                                    </LazyLoad>
                                 </figure>
                                 <div className=" g-pa-20">
                                     <h3 className="text-uppercase g-font-weight-700 g-font-size-14 text-center" >{getLocalValue("technology_section1_title")}</h3>

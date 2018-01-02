@@ -14,6 +14,7 @@
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-lazy-load": "^3.0.13",
     "react-lazyload": "^2.3.0",
     "react-redux": "^5.0.6",
     "react-router": "^4.2.0",
@@ -32,6 +33,7 @@
     "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^0.11.2",
     "html-webpack-plugin": "^2.30.1",
+    "react-lazy-load": "^3.0.13",
     "style-loader": "^0.18.2",
     "url-loader": "^0.5.9",
     "webpack": "^3.5.6",

@@ -1,15 +1,17 @@
 import React,{ Component }from 'react';
 import {ROOT_URL} from '../../actions/types';
 import {getLocalValue} from '../common/language';
-import LazyLoad from 'react-lazyload';
-
+// import LazyLoad from 'react-lazyload';
+import LazyLoad from 'react-lazy-load';
 class Cornerstone extends Component{
     renderrow(item,index){
         return (
             <div className="col-lg-6 g-px-40 g-mb-50 g-mb-0--lg" key={index}>
                 <div className="text-center">
                             <span className="d-inline-block  u-icon-size--xl rounded-circle g-mb-30">
-                              <img className="imgborder g-width-110" style={{height:"115px", boxShadow: "0 0 20px #ffffff"}} src={item.src} alt=""/>
+                            <LazyLoad height={"100%"} width={"100%"}>
+                                <img className="imgborder g-width-110" style={{height:"115px", boxShadow: "0 0 20px #ffffff"}} src={item.src} alt="" />
+                            </LazyLoad>
                             </span>
                     <h3 className="h5 g-font-weight-600 g-font-size-18 text-uppercase mb-3 g-color-white" style={{marginTop: "20px"}}>{item.name}</h3>
                     <h3 className="h5 g-font-weight-600 g-font-size-16 text-uppercase mb-3" style={{color: "#167aff"}}>{item.desc}</h3>

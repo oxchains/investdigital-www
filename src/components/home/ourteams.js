@@ -4,6 +4,7 @@
 import React,{ Component }from 'react';
 import {ROOT_URL} from '../../actions/types';
 import {getLocalValue} from '../common/language';
+import LazyLoad from 'react-lazy-load';
 
 class Ourteams extends Component {
     constructor(props) {
@@ -23,8 +24,10 @@ class Ourteams extends Component {
         return (
             <div className="col-6 col-lg-3 g-px-25 g-mb-50" key={index}>
                 <div className="text-center">
-                    <img className="u-shadow-v29 g-width-110  rounded-circle mb-5" style={{height: '110px'}}
+                    <LazyLoad height={"100%"} width={"100%"}>
+                        <img className="u-shadow-v29 g-width-110  rounded-circle mb-5" style={{height: '110px'}}
                          src={src.src} alt="Image Description"/>
+                    </LazyLoad>
                     <h4 className="h5 g-font-weight-600 mb-1">{src.name}</h4>
                     <span className="d-block text-left ">{src.info}</span>
                 </div>
