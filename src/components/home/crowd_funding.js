@@ -16,6 +16,12 @@ class CrowdFunding extends Component{
             easing: 'easeOutExpo'
         });
     }
+
+    showBannerNotice() {
+        let bannerNoticeBtn = document.getElementById("bannerNoticeBtn");
+        bannerNoticeBtn.click();
+    }
+
     render(){
 
         return(
@@ -48,32 +54,11 @@ class CrowdFunding extends Component{
                                 </div>
                             </div>
                         </div>
-                        <div className="col-sm-12 g-color-white g-my-50">
-                            <div className="col-sm-12 crowd-section3-line"></div>
-                            <div className="range"></div>
-                            <div className="col-sm-4 float-left crowd-section3-content">
-                                <div className="pull-left">
-                                    <div className="g-mb-5"><span className="dian"></span></div>
-                                    <div>{getLocalValue("crowd_funding_section2_time1")}</div>
-                                    <div className="g-font-size-16">{getLocalValue("crowd_funding_section2_content1")}</div>
-                                </div>
+                        <div className="col-sm-12 g-color-white g-my-50 text-center">
+                            <div className="crowd-desc">
+                                {getLocalValue("crowd_funding_desc")}
                             </div>
-                            <div className="col-sm-4 float-left crowd-section3-content">
-                                <div className="pull-right">
-                                    <div className="text-center g-mb-5"><span className="dian"></span></div>
-                                    <div className="text-center">{getLocalValue("crowd_funding_section2_time2")}</div>
-                                    <div className="text-center g-font-size-16">{getLocalValue("crowd_funding_section2_content2")}</div>
-                                    <div className="text-center g-font-size-14">{getLocalValue("crowd_funding_section2_content2_tip")}</div>
-                                </div>
-                            </div>
-                            <div className="col-sm-4 float-left crowd-section3-content">
-                                <div className="pull-right">
-                                    <div className="text-right g-mb-5"><span className="dian"></span></div>
-                                    <div className="text-right">{getLocalValue("crowd_funding_section2_time3")}</div>
-                                    <div className="text-right g-font-size-16">{getLocalValue("crowd_funding_section2_content3")}</div>
-                                    <div className="text-right g-font-size-14">{getLocalValue("crowd_funding_section2_content3_tip")}</div>
-                                </div>
-                            </div>
+                            <button className="crowd-btn" onClick={this.showBannerNotice.bind(this)}>关于InvestDigital项目进展的公告</button>
                         </div>
                     </div>
                 </div>

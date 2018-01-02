@@ -11,6 +11,18 @@ const EN = {
     nav_github_url: "https://github.com/investdigital",
     law_to_lang: "?lang=EN",
 
+    banner_notice: "The private sale phase of InvestDigital has reached hardcap and come to an end, the next step will be completing IDC offering in next 2 weeks    \n" +
+    "Announcement About InvestDigital Project Progress.",
+    notice_title: "Announcement on InvestDigital Token Private Sale",
+    notice_one: "Hello everyone!",
+    notice_two: "Thank you for your continued attention to Project InvestDigital",
+    notice_three: "First off, we would like to say thank you to everyone who has supported the project in one way or another." +
+    "Token Private sale of InvestDigital has enjoyed tremendous support from institutional investors. As of today, InvestDigital token private sale has reached the hard cap and come to an end. The next step is IDC token distribution, and shall be completed within 2 weeks. For the exact terms and conditions of our token sale and distribution, including jurisdiction restrictions and relevant risks, please refer to our announcement and Legal Terms and Conditions published on our website.\n" +
+    "Thanks for your support, we warmly welcome everyone to join InvestDigital community. We will live up to expectations and work together to create a better ecological environment for digital currency investment.",
+    notice_four: "Wish you a Happy New Year!",
+    notice_author: "InvestDigital team",
+    notice_time: "January 2, 2018",
+
     www_title: "One-stop investment platform for cryptocurrencies.",
 
     about_title: "InvestDigital",
@@ -102,6 +114,7 @@ const EN = {
 
     crowd_funding_title:"Crowd Sale Instruction",
     crowd_funding_title_tip:"Before using the Website Services and participating in any of our sales activities, please be sure to read and thoroughly understand the legal terms and conditions. The terms and conditions set forth in this Legal Notice apply to all natural, legal persons and organizations that access and use the Site. Your use of the Website will be considered as an endorsement of the entire contents of the Legal Terms and Conditions when you elect to use the Website Services and participate in any of the Sale Activities.",
+    crowd_funding_desc: "The private sale phase of InvestDigital has reached hardcap and come to an end, the next step will be completing IDC offering in next 2 weeks.",
     crowd_funding_section1_name1:"Project Name:",
     crowd_funding_section1_item1:"InvestDigital",
     crowd_funding_section1_name2:"Start Time:",
