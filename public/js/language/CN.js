@@ -15,7 +15,7 @@ const CN = {
     notice_title: "关于InvestDigital项目进展的公告",
     notice_one: "关注InvestDigital项目的各位朋友：",
     notice_two: "大家好！感谢大家对InvestDigital项目的持续关注。首先祝大家新年快乐！",
-    notice_three: "InvestDigital项目启动以来，受到国内外机构和社区的广泛关注。自12月25日启动预售，仅24小时，机构登记的兑换意向即大幅超出项目硬顶。截至今日，InvestDigital项目私募已达到硬顶并告一段落，下一步将在2周内完成IDC代币发放。具体实施细则以官网公告和官方群公告为准。",
+    notice_three: "InvestDigital项目启动以来，受到国内外机构和社区的广泛关注。自12月25日启动预售，仅24小时，机构登记的兑换意向即大幅超出项目硬顶。截至今日，InvestDigital项目预售已达到硬顶并告一段落，下一步将在2周内完成IDC代币发放。具体实施细则以官网公告和官方群公告为准。",
     notice_four: "感谢大家的支持，热忱欢迎大家加入InvestDigital社区，我们将不负众望、砥砺前行，一起共建更加美好的数字货币投资生态！ ",
     notice_author: "InvestDigital团队",
     notice_time: "2018年1月2日",

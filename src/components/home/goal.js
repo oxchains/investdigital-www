@@ -12,7 +12,7 @@ class Goal extends Component{
         return(
             <section className="g-pt-100 g-pb-70 goal g-color-white">
                 <div className="container text-center g-max-width-75" style={{textAlign:'center'}}>
-                    <h2 className="g-font-weight-400 nl-home-title g-font-size-24">{getLocalValue("goal_title")}</h2>
+                    <h2 className="g-font-weight-400 nl-home-title g-font-size-24" style={{color: "#ffffff"}}>{getLocalValue("goal_title")}</h2>
                     <div className="nl-underline g-mb-15">
                         <span className="nl-style"></span>
                     </div>
