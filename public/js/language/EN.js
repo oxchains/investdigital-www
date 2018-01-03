@@ -224,7 +224,7 @@ const EN = {
     partner_title: "InvestDigital Partners",
 
     //footer
-    footer_title2:"Legal Provisions and Declarations",
+    footer_title2:"Legal Terms and Conditions",
 
     //法律结构
     law_structure_title1:"Legal Structure of InvestDigital",

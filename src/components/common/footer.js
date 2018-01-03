@@ -35,7 +35,7 @@ class Footer extends Component{
                            <div style={{width: "50%", display: "inline-block", textAlign: "right", paddingRight: "6%"}}>
                                <LazyLoad height={"100%"} width={"100%"}>
                                     <img src={`${ROOT_URL}/public/img/idc_qrcode.jpg`} style={{width: "110px"}}/>
-                               </LazyLoad>LazyLoad>
+                               </LazyLoad>
                                <br/>
                                 InvestDigital小秘
                             </div>
