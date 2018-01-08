@@ -32,18 +32,15 @@ class Banner extends Component{
             visible: true,
         });
     }
-
     handleCancel() {
         this.setState({
             visible: false,
         });
     }
-
     hideNotice() {
         let link = document.getElementById("bannerNotice");
         link.style.display = "none";
     }
-
     render(){
         return(
             <div>

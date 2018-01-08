@@ -14,7 +14,6 @@
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-lazy-load": "^3.0.13",
     "react-lazyload": "^2.3.0",
     "react-redux": "^5.0.6",
     "react-router": "^4.2.0",
@@ -29,6 +28,7 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-1": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.17",
     "copy-webpack-plugin": "^4.0.1",
     "css-loader": "^0.28.5",
     "extract-text-webpack-plugin": "^3.0.2",
