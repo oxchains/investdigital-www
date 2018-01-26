@@ -110,7 +110,14 @@
 #lawbanner{
     height: 100%;
     width: 100%;
-    background: url("/public/img/lawbg.jpg")  no-repeat center;
+    background: url("https://static-cdn.oxchains.com/investdigital-www/public/img/lawbg.jpg")  no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+#privacybanner{
+    height: 100%;
+    width: 100%;
+    background: url("https://static-cdn.oxchains.com/investdigital-www/public/img/privacy.png")  no-repeat center;
     background-size: cover;
     position: relative;
 }
@@ -675,4 +682,42 @@
 .en-title
 {
     margin-bottom: 1.5rem;
+}
+.new_photo{
+    background-repeat: no-repeat;
+}
+.new_and a{
+    color: #000;
+}
+.new_and a:hover{
+    color: #167aff;
+}
+/*.new_p{*/
+    /*width:100%;*/
+    /*word-wrap:break-word;*/
+    /*word-break:break-all;*/
+    /*display: block;*/
+    /*min-height: 3.6rem;*/
+    /*white-space: nowrap;*/
+    /*overflow: hidden;*/
+    /*text-overflow: ellipsis;*/
+/*}*/
+.new_p{
+position: relative; max-height: 3.6em;overflow: hidden;
+}
+.new_p::after{content: "..."; position: absolute; bottom: 0; right: 0; padding-left: 40px;
+    background: -webkit-linear-gradient(left, transparent, #fff 55%);
+    background: -o-linear-gradient(right, transparent, #fff 55%);
+    background: -moz-linear-gradient(right, transparent, #fff 55%);
+    background: linear-gradient(to right, transparent, #fff 55%);
+}
+/*2018.1.25 lj 隐私条款*/
+
+.privacywidth{
+    /*width: 300px;*/
+    font-size: 22px;
+    border-bottom: 2px solid #167aff;
+}
+.privacycenter{
+
 }

@@ -45,40 +45,42 @@ class New extends Component{
                                             <li className="list-inline-item">{getLocalValue("news_section1_time2")}</li>
                                         </ul>
 
-                                        <h2 className="h5 g-color-black g-font-weight-600 mb-4">
-                                            <a className="u-link-v5 g-color-black g-color-primary--hover g-cursor-pointer" href="#">{getLocalValue("news_section1_title")}</a>
+                                        <h2 className="h5 g-color-black g-font-weight-600 mb-4 new_and">
+                                            <a className="u-link-v5 g-cursor-pointer " href="http://www.chainfor.com/news/show/2807.html">{getLocalValue("news_section1_title")}</a>
                                         </h2>
-                                        <p className="g-color-gray-dark-v4 g-line-height-1_8 mb-4">{getLocalValue("news_section1_content")}</p>
-
+                                        {/*<p className="g-color-gray-dark-v4 g-line-height-1_8 mb-4 new_p">{getLocalValue("news_section1_content")}</p>*/}
+                                        <div className="g-color-gray-dark-v4 g-line-height-1_8 mb-4 new_p">
+                                            {getLocalValue("news_section1_content")}
+                                        </div>
                                         <ul className="list-inline g-font-size-12 mb-0">
                                             <li className="list-inline-item g-mb-10">
-                                                <a className="u-tags-v1 new-btn g-color-white--hover g-rounded-50 g-py-4 g-px-15" href="#">{getLocalValue("news_section1_btn")}</a>
+                                                <a className="u-tags-v1 new-btn g-color-white--hover g-rounded-50 g-py-4 g-px-15" href="http://www.chainfor.com/news/show/2807.html">{getLocalValue("news_section1_btn")}</a>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div className="col-md-6 g-bg-size-cover g-bg-pos-center g-min-height-300 g-rounded-right-5" data-bg-img-src={`${ROOT_URL}/public/img/new1.jpg`}></div>
+                                <div className="col-md-6 g-bg-pos-center g-min-height-300 g-rounded-right-5 new_photo" data-bg-img-src={`${ROOT_URL}/public/img/news1.png`} style={{backgroundColor:"#dcdcdc"}}></div>
                             </article>
                         </div>
 
                         <div className="masonry-grid-item col-sm-6 col-lg-4 g-mb-20">
                             <article className="u-shadow-v21 u-shadow-v21--hover g-transition-0_3">
 
-                                <img className="img-fluid w-100 g-rounded-top-5" src={`${ROOT_URL}/public/img/new2.jpg`} alt="Image Description"/>
+                                <img className="img-fluid w-100 g-rounded-top-5" src={`${ROOT_URL}/public/img/news4.png`} alt="Image Description"/>
                                     <div className="n-bg-white g-pa-30 g-rounded-bottom-5">
-                                        <ul className="list-inline g-color-gray-dark-v4 g-font-weight-600 g-font-size-12">
+                                        <ul className="list-inline g-color-gray-dark-v4 g-font-weight-600 g-font-size-12 g-py-20">
                                             <li className="list-inline-item mr-0">{getLocalValue("news_section2_time1")}</li>
                                             <li className="list-inline-item mx-2">&#183;</li>
-                                            <li className="list-inline-item">{getLocalValue("news_section2_time1")}</li>
+                                            <li className="list-inline-item">{getLocalValue("news_section2_time2")}</li>
                                         </ul>
 
-                                        <h2 className="h5 g-color-black g-font-weight-600 mb-4">
-                                            <a className="u-link-v5 g-color-black g-color-primary--hover g-cursor-pointer" href="#">{getLocalValue("news_section2_title")}</a>
+                                        <h2 className="h5 g-color-black g-font-weight-600 mb-4 new_and">
+                                            <a className="u-link-v5 g-cursor-pointer" href="https://baijiahao.baidu.com/s?id=1588655137004249880&wfr=spider&for=pc">{getLocalValue("news_section2_title")}</a>
                                         </h2>
 
                                         <ul className="list-inline g-font-size-12 mb-0">
                                             <li className="list-inline-item g-mb-10">
-                                                <a className="u-tags-v1 new-btn g-color-white--hover g-rounded-50 g-py-4 g-px-15" href="#">{getLocalValue("news_section1_btn")}</a>
+                                                <a className="u-tags-v1 new-btn g-color-white--hover g-rounded-50 g-py-4 g-px-15" href="https://baijiahao.baidu.com/s?id=1588655137004249880&wfr=spider&for=pc">{getLocalValue("news_section1_btn")}</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -88,21 +90,21 @@ class New extends Component{
                         <div className="masonry-grid-item col-sm-6 col-lg-4 g-mb-20">
                             <article className="u-shadow-v21 u-shadow-v21--hover g-transition-0_3">
 
-                                <img className="img-fluid w-100 g-rounded-top-5" src={`${ROOT_URL}/public/img/new3.jpg`} alt="Image Description"/>
+                                <img className="img-fluid w-100 g-rounded-top-5" src={`${ROOT_URL}/public/img/news3.png`} alt="Image Description"/>
                                     <div className="n-bg-white g-pa-30 g-rounded-bottom-5">
-                                        <ul className="list-inline g-color-gray-dark-v4 g-font-weight-600 g-font-size-12">
+                                        <ul className="list-inline g-color-gray-dark-v4 g-font-weight-600 g-font-size-12 g-py-20">
                                             <li className="list-inline-item mr-0">{getLocalValue("news_section3_time1")}</li>
                                             <li className="list-inline-item mx-2">&#183;</li>
-                                            <li className="list-inline-item">{getLocalValue("news_section3_time1")}</li>
+                                            <li className="list-inline-item">{getLocalValue("news_section3_time2")}</li>
                                         </ul>
 
-                                        <h2 className="h5 g-color-black g-font-weight-600 mb-4">
-                                            <a className="u-link-v5 g-color-black g-color-primary--hover g-cursor-pointer" href="#">{getLocalValue("news_section3_title")}</a>
+                                        <h2 className="h5 g-color-black g-font-weight-600 mb-4 new_and">
+                                            <a className="u-link-v5 g-cursor-pointer" href="http://www.diyicaijingwang.cn/xinwenzixun/2018/0110/93383.html">{getLocalValue("news_section3_title")}</a>
                                         </h2>
 
                                         <ul className="list-inline g-font-size-12 mb-0">
                                             <li className="list-inline-item g-mb-10">
-                                                <a className="u-tags-v1 new-btn g-color-white--hover g-rounded-50 g-py-4 g-px-15" href="#">{getLocalValue("news_section1_btn")}</a>
+                                                <a className="u-tags-v1 new-btn g-color-white--hover g-rounded-50 g-py-4 g-px-15" href="http://www.diyicaijingwang.cn/xinwenzixun/2018/0110/93383.html">{getLocalValue("news_section1_btn")}</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -120,24 +122,24 @@ class New extends Component{
                                 <div className="col-md-6 n-bg-white g-rounded-left-5">
                                     <div className="g-pa-60">
                                         <ul className="list-inline g-color-gray-dark-v4 g-font-weight-600 g-font-size-12">
-                                            <li className="list-inline-item mr-0">{getLocalValue("news_section1_time1")}</li>
+                                            <li className="list-inline-item mr-0">{getLocalValue("news_section4_time1")}</li>
                                             <li className="list-inline-item mx-2">&#183;</li>
-                                            <li className="list-inline-item">{getLocalValue("news_section1_time2")}</li>
+                                            <li className="list-inline-item">{getLocalValue("news_section4_time2")}</li>
                                         </ul>
 
-                                        <h2 className="h5 g-color-black g-font-weight-600 mb-4">
-                                            <a className="u-link-v5 g-color-black g-color-primary--hover g-cursor-pointer" href="#">{getLocalValue("news_section4_title")}</a>
+                                        <h2 className="h5 g-color-black g-font-weight-600 mb-4 new_and">
+                                            <a className="u-link-v5 g-cursor-pointer" href="http://www.caijing.com.cn/20180102/4387807.shtml">{getLocalValue("news_section4_title")}</a>
                                         </h2>
-                                        <p className="g-color-gray-dark-v4 g-line-height-1_8 mb-4">{getLocalValue("news_section4_content")}</p>
+                                        <p className="g-color-gray-dark-v4 g-line-height-1_8 mb-4 new_p">{getLocalValue("news_section4_content")}</p>
 
                                         <ul className="list-inline g-font-size-12 mb-0">
                                             <li className="list-inline-item g-mb-10">
-                                                <a className="new-btn u-tags-v1  g-color-white--hover g-rounded-50 g-py-4 g-px-15" href="#">{getLocalValue("news_section1_btn")}</a>
+                                                <a className="new-btn u-tags-v1  g-color-white--hover g-rounded-50 g-py-4 g-px-15" href="http://www.caijing.com.cn/20180102/4387807.shtml">{getLocalValue("news_section1_btn")}</a>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div className="col-md-6 g-bg-size-cover g-bg-pos-center g-min-height-300 g-rounded-right-5" data-bg-img-src={`${ROOT_URL}/public/img/new4.jpg`}></div>
+                                <div className="col-md-6 new_photo g-bg-pos-center g-min-height-300 g-rounded-right-5" data-bg-img-src={`${ROOT_URL}/public/img/news2.png`} style={{backgroundColor:"#dcdcdc"}}></div>
                             </article>
                         </div>
                     </div>

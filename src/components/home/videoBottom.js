@@ -34,7 +34,7 @@ class VideoBottom extends Component{
                             <source src={`${ROOT_URL}/public/img/1513154766.mp4`} type="video/mp4" />
                         </video>
                     </div>
-                    <div className="col-sm-6 col-lg-6 det" style={{paddingRight:50}}>
+                    <div className="col-sm-6 col-lg-6 det">
                         <h3>{getLocalValue("video_title")}</h3>
                         <div className="nl-underline g-mb-15">
                             <span className="nl-style" style={{float:"right"}}></span>

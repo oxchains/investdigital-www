@@ -24,7 +24,7 @@ class Partner extends Component{
     render(){
 
         return(
-            <section className=" g-pt-100 g-pb-70">
+            <section className=" g-pt-100 g-pb-70" style={{backgroundColor: "#ffffff"}}>
                 <div className="container text-center g-max-width-75" style={{textAlign:'center'}}>
                     <h2 className="g-font-weight-400 nl-home-title g-font-size-24">{getLocalValue("partner_title")}</h2>
                     <div className="nl-underline g-mb-15">
